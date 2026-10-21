@@ -1,0 +1,44 @@
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Uploads (private local storage)
+uploads/
+
+# Python virtual environment
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Model artifacts (may be large)
+services/ml/models/*.joblib
+services/ml/models/*.pkl
+
+# Coverage
+coverage/
+.nyc_output/
+htmlcov/
+.coverage
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
