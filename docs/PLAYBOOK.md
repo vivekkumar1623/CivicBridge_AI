@@ -22,7 +22,7 @@
 3. **Backend owns truth.** The browser must never connect directly to MongoDB or call the ML service directly. The Express backend is the only public API and the only service allowed to read/write application records. The Python ML service receives input from Express and returns suggestions; it does not access MongoDB.
 4. **AI suggests; people decide.** A category suggestion is visible to the reporter and can be changed. Duplicate detection only suggests potential matches; it must not automatically merge, reject, or hide a report. ML must not make final safety or urgency decisions.
 5. **No fake impact claims.** Do not invent accuracy, time saved, satisfaction, issue counts, government users, or municipal integrations. Every metric shown must come from actual test results or data in the application and must be labelled as demo data where applicable.
-6. **No false authority claims.** The first release is a standalone prototype. Reports are only visible within the application. Show this notice in the UI: *“Prototype: this report is not automatically sent to a municipal authority. For immediate danger or emergencies, contact the relevant local service.”* Do not claim the problem is repaired because an admin clicked a button; the app records a status update supplied by a reviewer.
+6. **No false authority claims.** The first release is a standalone prototype. Reports are only visible within the application. Show this notice in the UI: _“Prototype: this report is not automatically sent to a municipal authority. For immediate danger or emergencies, contact the relevant local service.”_ Do not claim the problem is repaired because an admin clicked a button; the app records a status update supplied by a reviewer.
 7. **Build a functioning narrow product before extensions.** Required: authentication, report submission, status tracking, reviewer workflow, text category model, duplicate suggestions, tests, documentation. Optional later: image classifier, multilingual model, public map, email notifications, live municipal integration, mobile app, IoT.
 8. **Keep personal information minimal.** Do not collect Aadhaar, phone number, exact home address, or other unnecessary identifiers. Do not show a reporter's email or exact coordinates publicly. Store uploaded photos privately, validate them, resize/re-encode them, and remove metadata where practical.
 
@@ -31,6 +31,7 @@
 ## 1. Definition of a successful MVP
 
 A successful MVP demonstrates this complete, honest workflow:
+
 1. A citizen creates an account and signs in.
 2. The citizen describes a local issue and may add one photo and optional location.
 3. The app requests an ML category suggestion. The citizen accepts it or chooses another category.
@@ -47,6 +48,7 @@ A successful MVP demonstrates this complete, honest workflow:
 ## 2. Fixed issue categories and status rules
 
 ### Category enum (exact values)
+
 - `road_damage`
 - `waste_management`
 - `streetlight`
@@ -57,6 +59,7 @@ A successful MVP demonstrates this complete, honest workflow:
 Use these exact values in MongoDB, API contracts, training data, tests, and frontend constants. User-facing labels may be title case.
 
 ### Status enum (exact values)
+
 - `submitted`
 - `under_review`
 - `in_progress`
@@ -64,6 +67,7 @@ Use these exact values in MongoDB, API contracts, training data, tests, and fron
 - `rejected`
 
 ### Allowed reviewer transitions only:
+
 - `submitted` → `under_review` or `rejected`
 - `under_review` → `in_progress` or `rejected`
 - `in_progress` → `resolved` or `rejected`
@@ -71,6 +75,7 @@ Use these exact values in MongoDB, API contracts, training data, tests, and fron
 No other transition is valid in the MVP. Do not permit citizens to set status. Every status transition must append an immutable status-history record. A resolved transition requires a non-empty `resolutionNote` of 10–500 characters. A rejected transition requires a non-empty `reason` of 10–500 characters. Status updates must be rejected with HTTP 422 if the transition is invalid or the required note is missing.
 
 ### Priority
+
 Priority is reviewer-assigned in the MVP: `low`, `normal`, `high`. The AI must not assign priority automatically. The admin dashboard may show a neutral “Review priority” field and allow an authorized reviewer to change it with an audit-history event. Do not infer risk from sentiment alone.
 
 ---
@@ -99,7 +104,7 @@ Later deployment: private object storage behind the same storage interface
 - The ML service must be stateless at request time and must not store reports or user identity.
 - MongoDB stores report metadata, users, and status history. It does not store image bytes.
 - Photo downloads must go through an authorization-checked Express endpoint. Never expose the upload directory as a public static folder.
-- If the ML service is offline or its model is unavailable, report submission must still work with manual category selection. Show a non-blocking message such as *“Suggestions are temporarily unavailable; choose a category manually.”*
+- If the ML service is offline or its model is unavailable, report submission must still work with manual category selection. Show a non-blocking message such as _“Suggestions are temporarily unavailable; choose a category manually.”_
 
 ---
 
@@ -173,6 +178,7 @@ civicbridge-ai/
 ## 5. Environment and configuration
 
 Keys in `.env.example`:
+
 ```env
 NODE_ENV=development
 API_PORT=4000
@@ -195,10 +201,10 @@ ADMIN_PASSWORD=replace_with_a_local_password
 
 - [x] **Phase 1 — Repository skeleton and health checks**
 - [x] **Phase 2 — Data models, validation, and database connection**
-- [ ] **Phase 3 — Authentication and access control**
-- [ ] **Phase 4 — Complete non-AI report workflow**
-- [ ] **Phase 5 — Photo upload and privacy**
-- [ ] **Phase 6 — Text category model**
+- [x] **Phase 3 — Authentication and access control**
+- [x] **Phase 4 — Complete non-AI report workflow**
+- [x] **Phase 5 — Photo upload and privacy**
+- [x] **Phase 6 — Text category model**
 - [ ] **Phase 7 — Nearby duplicate suggestions**
 - [ ] **Phase 8 — Admin/reviewer workflow and dashboard**
 - [ ] **Phase 9 — Frontend usability and accessibility**
