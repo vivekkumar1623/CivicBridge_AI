@@ -1,0 +1,721 @@
+description,category,source,language,split_group
+A resident reported a deep pothole at the north campus entrance. Cyclists are swerving into traffic to avoid it.,road_damage,synthetic_demo,en,road_damage_scenario_01
+Please inspect the area at the north campus entrance: a deep pothole is present. Cyclists are swerving into traffic to avoid it.,road_damage,synthetic_demo,en,road_damage_scenario_01
+There is a deep pothole at the north campus entrance. Cyclists are swerving into traffic to avoid it.,road_damage,synthetic_demo,en,road_damage_scenario_01
+The problem at the north campus entrance is a deep pothole. Cyclists are swerving into traffic to avoid it.,road_damage,synthetic_demo,en,road_damage_scenario_01
+We found a deep pothole at the north campus entrance. Cyclists are swerving into traffic to avoid it.,road_damage,synthetic_demo,en,road_damage_scenario_01
+A deep pothole was observed at the north campus entrance. Cyclists are swerving into traffic to avoid it.,road_damage,synthetic_demo,en,road_damage_scenario_01
+A resident reported cracked asphalt at the junction near the bus stop. The defect is getting wider with regular traffic.,road_damage,synthetic_demo,en,road_damage_scenario_02
+Please inspect the area at the junction near the bus stop: cracked asphalt is present. The defect is getting wider with regular traffic.,road_damage,synthetic_demo,en,road_damage_scenario_02
+There is cracked asphalt at the junction near the bus stop. The defect is getting wider with regular traffic.,road_damage,synthetic_demo,en,road_damage_scenario_02
+The problem at the junction near the bus stop is cracked asphalt. The defect is getting wider with regular traffic.,road_damage,synthetic_demo,en,road_damage_scenario_02
+We found cracked asphalt at the junction near the bus stop. The defect is getting wider with regular traffic.,road_damage,synthetic_demo,en,road_damage_scenario_02
+Cracked asphalt was observed at the junction near the bus stop. The defect is getting wider with regular traffic.,road_damage,synthetic_demo,en,road_damage_scenario_02
+A resident reported a broken road edge at the footpath outside the community hall. The uneven surface is difficult to cross safely.,road_damage,synthetic_demo,en,road_damage_scenario_03
+Please inspect the area at the footpath outside the community hall: a broken road edge is present. The uneven surface is difficult to cross safely.,road_damage,synthetic_demo,en,road_damage_scenario_03
+There is a broken road edge at the footpath outside the community hall. The uneven surface is difficult to cross safely.,road_damage,synthetic_demo,en,road_damage_scenario_03
+The problem at the footpath outside the community hall is a broken road edge. The uneven surface is difficult to cross safely.,road_damage,synthetic_demo,en,road_damage_scenario_03
+We found a broken road edge at the footpath outside the community hall. The uneven surface is difficult to cross safely.,road_damage,synthetic_demo,en,road_damage_scenario_03
+A broken road edge was observed at the footpath outside the community hall. The uneven surface is difficult to cross safely.,road_damage,synthetic_demo,en,road_damage_scenario_03
+A resident reported loose paving stones at the road beside the library. People using mobility aids have trouble passing.,road_damage,synthetic_demo,en,road_damage_scenario_04
+Please inspect the area at the road beside the library: loose paving stones is present. People using mobility aids have trouble passing.,road_damage,synthetic_demo,en,road_damage_scenario_04
+There is loose paving stones at the road beside the library. People using mobility aids have trouble passing.,road_damage,synthetic_demo,en,road_damage_scenario_04
+The problem at the road beside the library is loose paving stones. People using mobility aids have trouble passing.,road_damage,synthetic_demo,en,road_damage_scenario_04
+We found loose paving stones at the road beside the library. People using mobility aids have trouble passing.,road_damage,synthetic_demo,en,road_damage_scenario_04
+Loose paving stones was observed at the road beside the library. People using mobility aids have trouble passing.,road_damage,synthetic_demo,en,road_damage_scenario_04
+A resident reported a sunken section of pavement at the lane behind the market. The defect is getting wider with regular traffic.,road_damage,synthetic_demo,en,road_damage_scenario_05
+Please inspect the area at the lane behind the market: a sunken section of pavement is present. The defect is getting wider with regular traffic.,road_damage,synthetic_demo,en,road_damage_scenario_05
+There is a sunken section of pavement at the lane behind the market. The defect is getting wider with regular traffic.,road_damage,synthetic_demo,en,road_damage_scenario_05
+The problem at the lane behind the market is a sunken section of pavement. The defect is getting wider with regular traffic.,road_damage,synthetic_demo,en,road_damage_scenario_05
+We found a sunken section of pavement at the lane behind the market. The defect is getting wider with regular traffic.,road_damage,synthetic_demo,en,road_damage_scenario_05
+A sunken section of pavement was observed at the lane behind the market. The defect is getting wider with regular traffic.,road_damage,synthetic_demo,en,road_damage_scenario_05
+A resident reported a deep pothole at the road beside the library. The uneven surface is difficult to cross safely.,road_damage,synthetic_demo,en,road_damage_scenario_06
+Please inspect the area at the road beside the library: a deep pothole is present. The uneven surface is difficult to cross safely.,road_damage,synthetic_demo,en,road_damage_scenario_06
+There is a deep pothole at the road beside the library. The uneven surface is difficult to cross safely.,road_damage,synthetic_demo,en,road_damage_scenario_06
+The problem at the road beside the library is a deep pothole. The uneven surface is difficult to cross safely.,road_damage,synthetic_demo,en,road_damage_scenario_06
+We found a deep pothole at the road beside the library. The uneven surface is difficult to cross safely.,road_damage,synthetic_demo,en,road_damage_scenario_06
+A deep pothole was observed at the road beside the library. The uneven surface is difficult to cross safely.,road_damage,synthetic_demo,en,road_damage_scenario_06
+A resident reported cracked asphalt at the lane behind the market. People using mobility aids have trouble passing.,road_damage,synthetic_demo,en,road_damage_scenario_07
+Please inspect the area at the lane behind the market: cracked asphalt is present. People using mobility aids have trouble passing.,road_damage,synthetic_demo,en,road_damage_scenario_07
+There is cracked asphalt at the lane behind the market. People using mobility aids have trouble passing.,road_damage,synthetic_demo,en,road_damage_scenario_07
+The problem at the lane behind the market is cracked asphalt. People using mobility aids have trouble passing.,road_damage,synthetic_demo,en,road_damage_scenario_07
+We found cracked asphalt at the lane behind the market. People using mobility aids have trouble passing.,road_damage,synthetic_demo,en,road_damage_scenario_07
+Cracked asphalt was observed at the lane behind the market. People using mobility aids have trouble passing.,road_damage,synthetic_demo,en,road_damage_scenario_07
+A resident reported a broken road edge at the north campus entrance. Rainwater collects in the damaged section.,road_damage,synthetic_demo,en,road_damage_scenario_08
+Please inspect the area at the north campus entrance: a broken road edge is present. Rainwater collects in the damaged section.,road_damage,synthetic_demo,en,road_damage_scenario_08
+There is a broken road edge at the north campus entrance. Rainwater collects in the damaged section.,road_damage,synthetic_demo,en,road_damage_scenario_08
+The problem at the north campus entrance is a broken road edge. Rainwater collects in the damaged section.,road_damage,synthetic_demo,en,road_damage_scenario_08
+We found a broken road edge at the north campus entrance. Rainwater collects in the damaged section.,road_damage,synthetic_demo,en,road_damage_scenario_08
+A broken road edge was observed at the north campus entrance. Rainwater collects in the damaged section.,road_damage,synthetic_demo,en,road_damage_scenario_08
+A resident reported loose paving stones at the junction near the bus stop. The uneven surface is difficult to cross safely.,road_damage,synthetic_demo,en,road_damage_scenario_09
+Please inspect the area at the junction near the bus stop: loose paving stones is present. The uneven surface is difficult to cross safely.,road_damage,synthetic_demo,en,road_damage_scenario_09
+There is loose paving stones at the junction near the bus stop. The uneven surface is difficult to cross safely.,road_damage,synthetic_demo,en,road_damage_scenario_09
+The problem at the junction near the bus stop is loose paving stones. The uneven surface is difficult to cross safely.,road_damage,synthetic_demo,en,road_damage_scenario_09
+We found loose paving stones at the junction near the bus stop. The uneven surface is difficult to cross safely.,road_damage,synthetic_demo,en,road_damage_scenario_09
+Loose paving stones was observed at the junction near the bus stop. The uneven surface is difficult to cross safely.,road_damage,synthetic_demo,en,road_damage_scenario_09
+A resident reported a sunken section of pavement at the footpath outside the community hall. People using mobility aids have trouble passing.,road_damage,synthetic_demo,en,road_damage_scenario_10
+Please inspect the area at the footpath outside the community hall: a sunken section of pavement is present. People using mobility aids have trouble passing.,road_damage,synthetic_demo,en,road_damage_scenario_10
+There is a sunken section of pavement at the footpath outside the community hall. People using mobility aids have trouble passing.,road_damage,synthetic_demo,en,road_damage_scenario_10
+The problem at the footpath outside the community hall is a sunken section of pavement. People using mobility aids have trouble passing.,road_damage,synthetic_demo,en,road_damage_scenario_10
+We found a sunken section of pavement at the footpath outside the community hall. People using mobility aids have trouble passing.,road_damage,synthetic_demo,en,road_damage_scenario_10
+A sunken section of pavement was observed at the footpath outside the community hall. People using mobility aids have trouble passing.,road_damage,synthetic_demo,en,road_damage_scenario_10
+A resident reported a deep pothole at the junction near the bus stop. Rainwater collects in the damaged section.,road_damage,synthetic_demo,en,road_damage_scenario_11
+Please inspect the area at the junction near the bus stop: a deep pothole is present. Rainwater collects in the damaged section.,road_damage,synthetic_demo,en,road_damage_scenario_11
+There is a deep pothole at the junction near the bus stop. Rainwater collects in the damaged section.,road_damage,synthetic_demo,en,road_damage_scenario_11
+The problem at the junction near the bus stop is a deep pothole. Rainwater collects in the damaged section.,road_damage,synthetic_demo,en,road_damage_scenario_11
+We found a deep pothole at the junction near the bus stop. Rainwater collects in the damaged section.,road_damage,synthetic_demo,en,road_damage_scenario_11
+A deep pothole was observed at the junction near the bus stop. Rainwater collects in the damaged section.,road_damage,synthetic_demo,en,road_damage_scenario_11
+A resident reported cracked asphalt at the footpath outside the community hall. Cyclists are swerving into traffic to avoid it.,road_damage,synthetic_demo,en,road_damage_scenario_12
+Please inspect the area at the footpath outside the community hall: cracked asphalt is present. Cyclists are swerving into traffic to avoid it.,road_damage,synthetic_demo,en,road_damage_scenario_12
+There is cracked asphalt at the footpath outside the community hall. Cyclists are swerving into traffic to avoid it.,road_damage,synthetic_demo,en,road_damage_scenario_12
+The problem at the footpath outside the community hall is cracked asphalt. Cyclists are swerving into traffic to avoid it.,road_damage,synthetic_demo,en,road_damage_scenario_12
+We found cracked asphalt at the footpath outside the community hall. Cyclists are swerving into traffic to avoid it.,road_damage,synthetic_demo,en,road_damage_scenario_12
+Cracked asphalt was observed at the footpath outside the community hall. Cyclists are swerving into traffic to avoid it.,road_damage,synthetic_demo,en,road_damage_scenario_12
+A resident reported a broken road edge at the road beside the library. People using mobility aids have trouble passing.,road_damage,synthetic_demo,en,road_damage_scenario_13
+Please inspect the area at the road beside the library: a broken road edge is present. People using mobility aids have trouble passing.,road_damage,synthetic_demo,en,road_damage_scenario_13
+There is a broken road edge at the road beside the library. People using mobility aids have trouble passing.,road_damage,synthetic_demo,en,road_damage_scenario_13
+The problem at the road beside the library is a broken road edge. People using mobility aids have trouble passing.,road_damage,synthetic_demo,en,road_damage_scenario_13
+We found a broken road edge at the road beside the library. People using mobility aids have trouble passing.,road_damage,synthetic_demo,en,road_damage_scenario_13
+A broken road edge was observed at the road beside the library. People using mobility aids have trouble passing.,road_damage,synthetic_demo,en,road_damage_scenario_13
+A resident reported loose paving stones at the lane behind the market. Rainwater collects in the damaged section.,road_damage,synthetic_demo,en,road_damage_scenario_14
+Please inspect the area at the lane behind the market: loose paving stones is present. Rainwater collects in the damaged section.,road_damage,synthetic_demo,en,road_damage_scenario_14
+There is loose paving stones at the lane behind the market. Rainwater collects in the damaged section.,road_damage,synthetic_demo,en,road_damage_scenario_14
+The problem at the lane behind the market is loose paving stones. Rainwater collects in the damaged section.,road_damage,synthetic_demo,en,road_damage_scenario_14
+We found loose paving stones at the lane behind the market. Rainwater collects in the damaged section.,road_damage,synthetic_demo,en,road_damage_scenario_14
+Loose paving stones was observed at the lane behind the market. Rainwater collects in the damaged section.,road_damage,synthetic_demo,en,road_damage_scenario_14
+A resident reported a sunken section of pavement at the north campus entrance. Cyclists are swerving into traffic to avoid it.,road_damage,synthetic_demo,en,road_damage_scenario_15
+Please inspect the area at the north campus entrance: a sunken section of pavement is present. Cyclists are swerving into traffic to avoid it.,road_damage,synthetic_demo,en,road_damage_scenario_15
+There is a sunken section of pavement at the north campus entrance. Cyclists are swerving into traffic to avoid it.,road_damage,synthetic_demo,en,road_damage_scenario_15
+The problem at the north campus entrance is a sunken section of pavement. Cyclists are swerving into traffic to avoid it.,road_damage,synthetic_demo,en,road_damage_scenario_15
+We found a sunken section of pavement at the north campus entrance. Cyclists are swerving into traffic to avoid it.,road_damage,synthetic_demo,en,road_damage_scenario_15
+A sunken section of pavement was observed at the north campus entrance. Cyclists are swerving into traffic to avoid it.,road_damage,synthetic_demo,en,road_damage_scenario_15
+A resident reported a deep pothole at the lane behind the market. The defect is getting wider with regular traffic.,road_damage,synthetic_demo,en,road_damage_scenario_16
+Please inspect the area at the lane behind the market: a deep pothole is present. The defect is getting wider with regular traffic.,road_damage,synthetic_demo,en,road_damage_scenario_16
+There is a deep pothole at the lane behind the market. The defect is getting wider with regular traffic.,road_damage,synthetic_demo,en,road_damage_scenario_16
+The problem at the lane behind the market is a deep pothole. The defect is getting wider with regular traffic.,road_damage,synthetic_demo,en,road_damage_scenario_16
+We found a deep pothole at the lane behind the market. The defect is getting wider with regular traffic.,road_damage,synthetic_demo,en,road_damage_scenario_16
+A deep pothole was observed at the lane behind the market. The defect is getting wider with regular traffic.,road_damage,synthetic_demo,en,road_damage_scenario_16
+A resident reported cracked asphalt at the north campus entrance. Rainwater collects in the damaged section.,road_damage,synthetic_demo,en,road_damage_scenario_17
+Please inspect the area at the north campus entrance: cracked asphalt is present. Rainwater collects in the damaged section.,road_damage,synthetic_demo,en,road_damage_scenario_17
+There is cracked asphalt at the north campus entrance. Rainwater collects in the damaged section.,road_damage,synthetic_demo,en,road_damage_scenario_17
+The problem at the north campus entrance is cracked asphalt. Rainwater collects in the damaged section.,road_damage,synthetic_demo,en,road_damage_scenario_17
+We found cracked asphalt at the north campus entrance. Rainwater collects in the damaged section.,road_damage,synthetic_demo,en,road_damage_scenario_17
+Cracked asphalt was observed at the north campus entrance. Rainwater collects in the damaged section.,road_damage,synthetic_demo,en,road_damage_scenario_17
+A resident reported a broken road edge at the junction near the bus stop. Cyclists are swerving into traffic to avoid it.,road_damage,synthetic_demo,en,road_damage_scenario_18
+Please inspect the area at the junction near the bus stop: a broken road edge is present. Cyclists are swerving into traffic to avoid it.,road_damage,synthetic_demo,en,road_damage_scenario_18
+There is a broken road edge at the junction near the bus stop. Cyclists are swerving into traffic to avoid it.,road_damage,synthetic_demo,en,road_damage_scenario_18
+The problem at the junction near the bus stop is a broken road edge. Cyclists are swerving into traffic to avoid it.,road_damage,synthetic_demo,en,road_damage_scenario_18
+We found a broken road edge at the junction near the bus stop. Cyclists are swerving into traffic to avoid it.,road_damage,synthetic_demo,en,road_damage_scenario_18
+A broken road edge was observed at the junction near the bus stop. Cyclists are swerving into traffic to avoid it.,road_damage,synthetic_demo,en,road_damage_scenario_18
+A resident reported loose paving stones at the footpath outside the community hall. The defect is getting wider with regular traffic.,road_damage,synthetic_demo,en,road_damage_scenario_19
+Please inspect the area at the footpath outside the community hall: loose paving stones is present. The defect is getting wider with regular traffic.,road_damage,synthetic_demo,en,road_damage_scenario_19
+There is loose paving stones at the footpath outside the community hall. The defect is getting wider with regular traffic.,road_damage,synthetic_demo,en,road_damage_scenario_19
+The problem at the footpath outside the community hall is loose paving stones. The defect is getting wider with regular traffic.,road_damage,synthetic_demo,en,road_damage_scenario_19
+We found loose paving stones at the footpath outside the community hall. The defect is getting wider with regular traffic.,road_damage,synthetic_demo,en,road_damage_scenario_19
+Loose paving stones was observed at the footpath outside the community hall. The defect is getting wider with regular traffic.,road_damage,synthetic_demo,en,road_damage_scenario_19
+A resident reported a sunken section of pavement at the road beside the library. The uneven surface is difficult to cross safely.,road_damage,synthetic_demo,en,road_damage_scenario_20
+Please inspect the area at the road beside the library: a sunken section of pavement is present. The uneven surface is difficult to cross safely.,road_damage,synthetic_demo,en,road_damage_scenario_20
+There is a sunken section of pavement at the road beside the library. The uneven surface is difficult to cross safely.,road_damage,synthetic_demo,en,road_damage_scenario_20
+The problem at the road beside the library is a sunken section of pavement. The uneven surface is difficult to cross safely.,road_damage,synthetic_demo,en,road_damage_scenario_20
+We found a sunken section of pavement at the road beside the library. The uneven surface is difficult to cross safely.,road_damage,synthetic_demo,en,road_damage_scenario_20
+A sunken section of pavement was observed at the road beside the library. The uneven surface is difficult to cross safely.,road_damage,synthetic_demo,en,road_damage_scenario_20
+A resident reported an overflowing waste bin at the north campus entrance. Litter is spreading across the nearby walkway.,waste_management,synthetic_demo,en,waste_management_scenario_01
+Please inspect the area at the north campus entrance: an overflowing waste bin is present. Litter is spreading across the nearby walkway.,waste_management,synthetic_demo,en,waste_management_scenario_01
+There is an overflowing waste bin at the north campus entrance. Litter is spreading across the nearby walkway.,waste_management,synthetic_demo,en,waste_management_scenario_01
+The problem at the north campus entrance is an overflowing waste bin. Litter is spreading across the nearby walkway.,waste_management,synthetic_demo,en,waste_management_scenario_01
+We found an overflowing waste bin at the north campus entrance. Litter is spreading across the nearby walkway.,waste_management,synthetic_demo,en,waste_management_scenario_01
+An overflowing waste bin was observed at the north campus entrance. Litter is spreading across the nearby walkway.,waste_management,synthetic_demo,en,waste_management_scenario_01
+A resident reported uncollected household rubbish at the junction near the bus stop. People are leaving more rubbish beside the full bin.,waste_management,synthetic_demo,en,waste_management_scenario_02
+Please inspect the area at the junction near the bus stop: uncollected household rubbish is present. People are leaving more rubbish beside the full bin.,waste_management,synthetic_demo,en,waste_management_scenario_02
+There is uncollected household rubbish at the junction near the bus stop. People are leaving more rubbish beside the full bin.,waste_management,synthetic_demo,en,waste_management_scenario_02
+The problem at the junction near the bus stop is uncollected household rubbish. People are leaving more rubbish beside the full bin.,waste_management,synthetic_demo,en,waste_management_scenario_02
+We found uncollected household rubbish at the junction near the bus stop. People are leaving more rubbish beside the full bin.,waste_management,synthetic_demo,en,waste_management_scenario_02
+Uncollected household rubbish was observed at the junction near the bus stop. People are leaving more rubbish beside the full bin.,waste_management,synthetic_demo,en,waste_management_scenario_02
+A resident reported a pile of mixed plastic waste at the area outside the community hall. The waste has remained there for several days.,waste_management,synthetic_demo,en,waste_management_scenario_03
+Please inspect the area at the area outside the community hall: a pile of mixed plastic waste is present. The waste has remained there for several days.,waste_management,synthetic_demo,en,waste_management_scenario_03
+There is a pile of mixed plastic waste at the area outside the community hall. The waste has remained there for several days.,waste_management,synthetic_demo,en,waste_management_scenario_03
+The problem at the area outside the community hall is a pile of mixed plastic waste. The waste has remained there for several days.,waste_management,synthetic_demo,en,waste_management_scenario_03
+We found a pile of mixed plastic waste at the area outside the community hall. The waste has remained there for several days.,waste_management,synthetic_demo,en,waste_management_scenario_03
+A pile of mixed plastic waste was observed at the area outside the community hall. The waste has remained there for several days.,waste_management,synthetic_demo,en,waste_management_scenario_03
+A resident reported a broken public litter container at the lane beside the library. The public path is becoming unpleasant to use.,waste_management,synthetic_demo,en,waste_management_scenario_04
+Please inspect the area at the lane beside the library: a broken public litter container is present. The public path is becoming unpleasant to use.,waste_management,synthetic_demo,en,waste_management_scenario_04
+There is a broken public litter container at the lane beside the library. The public path is becoming unpleasant to use.,waste_management,synthetic_demo,en,waste_management_scenario_04
+The problem at the lane beside the library is a broken public litter container. The public path is becoming unpleasant to use.,waste_management,synthetic_demo,en,waste_management_scenario_04
+We found a broken public litter container at the lane beside the library. The public path is becoming unpleasant to use.,waste_management,synthetic_demo,en,waste_management_scenario_04
+A broken public litter container was observed at the lane beside the library. The public path is becoming unpleasant to use.,waste_management,synthetic_demo,en,waste_management_scenario_04
+A resident reported food waste left beside the collection point at the corner behind the market. People are leaving more rubbish beside the full bin.,waste_management,synthetic_demo,en,waste_management_scenario_05
+Please inspect the area at the corner behind the market: food waste left beside the collection point is present. People are leaving more rubbish beside the full bin.,waste_management,synthetic_demo,en,waste_management_scenario_05
+There is food waste left beside the collection point at the corner behind the market. People are leaving more rubbish beside the full bin.,waste_management,synthetic_demo,en,waste_management_scenario_05
+The problem at the corner behind the market is food waste left beside the collection point. People are leaving more rubbish beside the full bin.,waste_management,synthetic_demo,en,waste_management_scenario_05
+We found food waste left beside the collection point at the corner behind the market. People are leaving more rubbish beside the full bin.,waste_management,synthetic_demo,en,waste_management_scenario_05
+Food waste left beside the collection point was observed at the corner behind the market. People are leaving more rubbish beside the full bin.,waste_management,synthetic_demo,en,waste_management_scenario_05
+A resident reported an overflowing waste bin at the lane beside the library. The waste has remained there for several days.,waste_management,synthetic_demo,en,waste_management_scenario_06
+Please inspect the area at the lane beside the library: an overflowing waste bin is present. The waste has remained there for several days.,waste_management,synthetic_demo,en,waste_management_scenario_06
+There is an overflowing waste bin at the lane beside the library. The waste has remained there for several days.,waste_management,synthetic_demo,en,waste_management_scenario_06
+The problem at the lane beside the library is an overflowing waste bin. The waste has remained there for several days.,waste_management,synthetic_demo,en,waste_management_scenario_06
+We found an overflowing waste bin at the lane beside the library. The waste has remained there for several days.,waste_management,synthetic_demo,en,waste_management_scenario_06
+An overflowing waste bin was observed at the lane beside the library. The waste has remained there for several days.,waste_management,synthetic_demo,en,waste_management_scenario_06
+A resident reported uncollected household rubbish at the corner behind the market. The public path is becoming unpleasant to use.,waste_management,synthetic_demo,en,waste_management_scenario_07
+Please inspect the area at the corner behind the market: uncollected household rubbish is present. The public path is becoming unpleasant to use.,waste_management,synthetic_demo,en,waste_management_scenario_07
+There is uncollected household rubbish at the corner behind the market. The public path is becoming unpleasant to use.,waste_management,synthetic_demo,en,waste_management_scenario_07
+The problem at the corner behind the market is uncollected household rubbish. The public path is becoming unpleasant to use.,waste_management,synthetic_demo,en,waste_management_scenario_07
+We found uncollected household rubbish at the corner behind the market. The public path is becoming unpleasant to use.,waste_management,synthetic_demo,en,waste_management_scenario_07
+Uncollected household rubbish was observed at the corner behind the market. The public path is becoming unpleasant to use.,waste_management,synthetic_demo,en,waste_management_scenario_07
+A resident reported a pile of mixed plastic waste at the north campus entrance. The collection area is attracting stray animals.,waste_management,synthetic_demo,en,waste_management_scenario_08
+Please inspect the area at the north campus entrance: a pile of mixed plastic waste is present. The collection area is attracting stray animals.,waste_management,synthetic_demo,en,waste_management_scenario_08
+There is a pile of mixed plastic waste at the north campus entrance. The collection area is attracting stray animals.,waste_management,synthetic_demo,en,waste_management_scenario_08
+The problem at the north campus entrance is a pile of mixed plastic waste. The collection area is attracting stray animals.,waste_management,synthetic_demo,en,waste_management_scenario_08
+We found a pile of mixed plastic waste at the north campus entrance. The collection area is attracting stray animals.,waste_management,synthetic_demo,en,waste_management_scenario_08
+A pile of mixed plastic waste was observed at the north campus entrance. The collection area is attracting stray animals.,waste_management,synthetic_demo,en,waste_management_scenario_08
+A resident reported a broken public litter container at the junction near the bus stop. The waste has remained there for several days.,waste_management,synthetic_demo,en,waste_management_scenario_09
+Please inspect the area at the junction near the bus stop: a broken public litter container is present. The waste has remained there for several days.,waste_management,synthetic_demo,en,waste_management_scenario_09
+There is a broken public litter container at the junction near the bus stop. The waste has remained there for several days.,waste_management,synthetic_demo,en,waste_management_scenario_09
+The problem at the junction near the bus stop is a broken public litter container. The waste has remained there for several days.,waste_management,synthetic_demo,en,waste_management_scenario_09
+We found a broken public litter container at the junction near the bus stop. The waste has remained there for several days.,waste_management,synthetic_demo,en,waste_management_scenario_09
+A broken public litter container was observed at the junction near the bus stop. The waste has remained there for several days.,waste_management,synthetic_demo,en,waste_management_scenario_09
+A resident reported food waste left beside the collection point at the area outside the community hall. The public path is becoming unpleasant to use.,waste_management,synthetic_demo,en,waste_management_scenario_10
+Please inspect the area at the area outside the community hall: food waste left beside the collection point is present. The public path is becoming unpleasant to use.,waste_management,synthetic_demo,en,waste_management_scenario_10
+There is food waste left beside the collection point at the area outside the community hall. The public path is becoming unpleasant to use.,waste_management,synthetic_demo,en,waste_management_scenario_10
+The problem at the area outside the community hall is food waste left beside the collection point. The public path is becoming unpleasant to use.,waste_management,synthetic_demo,en,waste_management_scenario_10
+We found food waste left beside the collection point at the area outside the community hall. The public path is becoming unpleasant to use.,waste_management,synthetic_demo,en,waste_management_scenario_10
+Food waste left beside the collection point was observed at the area outside the community hall. The public path is becoming unpleasant to use.,waste_management,synthetic_demo,en,waste_management_scenario_10
+A resident reported an overflowing waste bin at the junction near the bus stop. The collection area is attracting stray animals.,waste_management,synthetic_demo,en,waste_management_scenario_11
+Please inspect the area at the junction near the bus stop: an overflowing waste bin is present. The collection area is attracting stray animals.,waste_management,synthetic_demo,en,waste_management_scenario_11
+There is an overflowing waste bin at the junction near the bus stop. The collection area is attracting stray animals.,waste_management,synthetic_demo,en,waste_management_scenario_11
+The problem at the junction near the bus stop is an overflowing waste bin. The collection area is attracting stray animals.,waste_management,synthetic_demo,en,waste_management_scenario_11
+We found an overflowing waste bin at the junction near the bus stop. The collection area is attracting stray animals.,waste_management,synthetic_demo,en,waste_management_scenario_11
+An overflowing waste bin was observed at the junction near the bus stop. The collection area is attracting stray animals.,waste_management,synthetic_demo,en,waste_management_scenario_11
+A resident reported uncollected household rubbish at the area outside the community hall. Litter is spreading across the nearby walkway.,waste_management,synthetic_demo,en,waste_management_scenario_12
+Please inspect the area at the area outside the community hall: uncollected household rubbish is present. Litter is spreading across the nearby walkway.,waste_management,synthetic_demo,en,waste_management_scenario_12
+There is uncollected household rubbish at the area outside the community hall. Litter is spreading across the nearby walkway.,waste_management,synthetic_demo,en,waste_management_scenario_12
+The problem at the area outside the community hall is uncollected household rubbish. Litter is spreading across the nearby walkway.,waste_management,synthetic_demo,en,waste_management_scenario_12
+We found uncollected household rubbish at the area outside the community hall. Litter is spreading across the nearby walkway.,waste_management,synthetic_demo,en,waste_management_scenario_12
+Uncollected household rubbish was observed at the area outside the community hall. Litter is spreading across the nearby walkway.,waste_management,synthetic_demo,en,waste_management_scenario_12
+A resident reported a pile of mixed plastic waste at the lane beside the library. The public path is becoming unpleasant to use.,waste_management,synthetic_demo,en,waste_management_scenario_13
+Please inspect the area at the lane beside the library: a pile of mixed plastic waste is present. The public path is becoming unpleasant to use.,waste_management,synthetic_demo,en,waste_management_scenario_13
+There is a pile of mixed plastic waste at the lane beside the library. The public path is becoming unpleasant to use.,waste_management,synthetic_demo,en,waste_management_scenario_13
+The problem at the lane beside the library is a pile of mixed plastic waste. The public path is becoming unpleasant to use.,waste_management,synthetic_demo,en,waste_management_scenario_13
+We found a pile of mixed plastic waste at the lane beside the library. The public path is becoming unpleasant to use.,waste_management,synthetic_demo,en,waste_management_scenario_13
+A pile of mixed plastic waste was observed at the lane beside the library. The public path is becoming unpleasant to use.,waste_management,synthetic_demo,en,waste_management_scenario_13
+A resident reported a broken public litter container at the corner behind the market. The collection area is attracting stray animals.,waste_management,synthetic_demo,en,waste_management_scenario_14
+Please inspect the area at the corner behind the market: a broken public litter container is present. The collection area is attracting stray animals.,waste_management,synthetic_demo,en,waste_management_scenario_14
+There is a broken public litter container at the corner behind the market. The collection area is attracting stray animals.,waste_management,synthetic_demo,en,waste_management_scenario_14
+The problem at the corner behind the market is a broken public litter container. The collection area is attracting stray animals.,waste_management,synthetic_demo,en,waste_management_scenario_14
+We found a broken public litter container at the corner behind the market. The collection area is attracting stray animals.,waste_management,synthetic_demo,en,waste_management_scenario_14
+A broken public litter container was observed at the corner behind the market. The collection area is attracting stray animals.,waste_management,synthetic_demo,en,waste_management_scenario_14
+A resident reported food waste left beside the collection point at the north campus entrance. Litter is spreading across the nearby walkway.,waste_management,synthetic_demo,en,waste_management_scenario_15
+Please inspect the area at the north campus entrance: food waste left beside the collection point is present. Litter is spreading across the nearby walkway.,waste_management,synthetic_demo,en,waste_management_scenario_15
+There is food waste left beside the collection point at the north campus entrance. Litter is spreading across the nearby walkway.,waste_management,synthetic_demo,en,waste_management_scenario_15
+The problem at the north campus entrance is food waste left beside the collection point. Litter is spreading across the nearby walkway.,waste_management,synthetic_demo,en,waste_management_scenario_15
+We found food waste left beside the collection point at the north campus entrance. Litter is spreading across the nearby walkway.,waste_management,synthetic_demo,en,waste_management_scenario_15
+Food waste left beside the collection point was observed at the north campus entrance. Litter is spreading across the nearby walkway.,waste_management,synthetic_demo,en,waste_management_scenario_15
+A resident reported an overflowing waste bin at the corner behind the market. People are leaving more rubbish beside the full bin.,waste_management,synthetic_demo,en,waste_management_scenario_16
+Please inspect the area at the corner behind the market: an overflowing waste bin is present. People are leaving more rubbish beside the full bin.,waste_management,synthetic_demo,en,waste_management_scenario_16
+There is an overflowing waste bin at the corner behind the market. People are leaving more rubbish beside the full bin.,waste_management,synthetic_demo,en,waste_management_scenario_16
+The problem at the corner behind the market is an overflowing waste bin. People are leaving more rubbish beside the full bin.,waste_management,synthetic_demo,en,waste_management_scenario_16
+We found an overflowing waste bin at the corner behind the market. People are leaving more rubbish beside the full bin.,waste_management,synthetic_demo,en,waste_management_scenario_16
+An overflowing waste bin was observed at the corner behind the market. People are leaving more rubbish beside the full bin.,waste_management,synthetic_demo,en,waste_management_scenario_16
+A resident reported uncollected household rubbish at the north campus entrance. The collection area is attracting stray animals.,waste_management,synthetic_demo,en,waste_management_scenario_17
+Please inspect the area at the north campus entrance: uncollected household rubbish is present. The collection area is attracting stray animals.,waste_management,synthetic_demo,en,waste_management_scenario_17
+There is uncollected household rubbish at the north campus entrance. The collection area is attracting stray animals.,waste_management,synthetic_demo,en,waste_management_scenario_17
+The problem at the north campus entrance is uncollected household rubbish. The collection area is attracting stray animals.,waste_management,synthetic_demo,en,waste_management_scenario_17
+We found uncollected household rubbish at the north campus entrance. The collection area is attracting stray animals.,waste_management,synthetic_demo,en,waste_management_scenario_17
+Uncollected household rubbish was observed at the north campus entrance. The collection area is attracting stray animals.,waste_management,synthetic_demo,en,waste_management_scenario_17
+A resident reported a pile of mixed plastic waste at the junction near the bus stop. Litter is spreading across the nearby walkway.,waste_management,synthetic_demo,en,waste_management_scenario_18
+Please inspect the area at the junction near the bus stop: a pile of mixed plastic waste is present. Litter is spreading across the nearby walkway.,waste_management,synthetic_demo,en,waste_management_scenario_18
+There is a pile of mixed plastic waste at the junction near the bus stop. Litter is spreading across the nearby walkway.,waste_management,synthetic_demo,en,waste_management_scenario_18
+The problem at the junction near the bus stop is a pile of mixed plastic waste. Litter is spreading across the nearby walkway.,waste_management,synthetic_demo,en,waste_management_scenario_18
+We found a pile of mixed plastic waste at the junction near the bus stop. Litter is spreading across the nearby walkway.,waste_management,synthetic_demo,en,waste_management_scenario_18
+A pile of mixed plastic waste was observed at the junction near the bus stop. Litter is spreading across the nearby walkway.,waste_management,synthetic_demo,en,waste_management_scenario_18
+A resident reported a broken public litter container at the area outside the community hall. People are leaving more rubbish beside the full bin.,waste_management,synthetic_demo,en,waste_management_scenario_19
+Please inspect the area at the area outside the community hall: a broken public litter container is present. People are leaving more rubbish beside the full bin.,waste_management,synthetic_demo,en,waste_management_scenario_19
+There is a broken public litter container at the area outside the community hall. People are leaving more rubbish beside the full bin.,waste_management,synthetic_demo,en,waste_management_scenario_19
+The problem at the area outside the community hall is a broken public litter container. People are leaving more rubbish beside the full bin.,waste_management,synthetic_demo,en,waste_management_scenario_19
+We found a broken public litter container at the area outside the community hall. People are leaving more rubbish beside the full bin.,waste_management,synthetic_demo,en,waste_management_scenario_19
+A broken public litter container was observed at the area outside the community hall. People are leaving more rubbish beside the full bin.,waste_management,synthetic_demo,en,waste_management_scenario_19
+A resident reported food waste left beside the collection point at the lane beside the library. The waste has remained there for several days.,waste_management,synthetic_demo,en,waste_management_scenario_20
+Please inspect the area at the lane beside the library: food waste left beside the collection point is present. The waste has remained there for several days.,waste_management,synthetic_demo,en,waste_management_scenario_20
+There is food waste left beside the collection point at the lane beside the library. The waste has remained there for several days.,waste_management,synthetic_demo,en,waste_management_scenario_20
+The problem at the lane beside the library is food waste left beside the collection point. The waste has remained there for several days.,waste_management,synthetic_demo,en,waste_management_scenario_20
+We found food waste left beside the collection point at the lane beside the library. The waste has remained there for several days.,waste_management,synthetic_demo,en,waste_management_scenario_20
+Food waste left beside the collection point was observed at the lane beside the library. The waste has remained there for several days.,waste_management,synthetic_demo,en,waste_management_scenario_20
+A resident reported a streetlight that does not turn on at the north campus entrance. The area is very dark after sunset.,streetlight,synthetic_demo,en,streetlight_scenario_01
+Please inspect the area at the north campus entrance: a streetlight that does not turn on is present. The area is very dark after sunset.,streetlight,synthetic_demo,en,streetlight_scenario_01
+There is a streetlight that does not turn on at the north campus entrance. The area is very dark after sunset.,streetlight,synthetic_demo,en,streetlight_scenario_01
+The problem at the north campus entrance is a streetlight that does not turn on. The area is very dark after sunset.,streetlight,synthetic_demo,en,streetlight_scenario_01
+We found a streetlight that does not turn on at the north campus entrance. The area is very dark after sunset.,streetlight,synthetic_demo,en,streetlight_scenario_01
+A streetlight that does not turn on was observed at the north campus entrance. The area is very dark after sunset.,streetlight,synthetic_demo,en,streetlight_scenario_01
+A resident reported a flickering lamp post at the junction near the bus stop. The damaged fitting may need a safety inspection.,streetlight,synthetic_demo,en,streetlight_scenario_02
+Please inspect the area at the junction near the bus stop: a flickering lamp post is present. The damaged fitting may need a safety inspection.,streetlight,synthetic_demo,en,streetlight_scenario_02
+There is a flickering lamp post at the junction near the bus stop. The damaged fitting may need a safety inspection.,streetlight,synthetic_demo,en,streetlight_scenario_02
+The problem at the junction near the bus stop is a flickering lamp post. The damaged fitting may need a safety inspection.,streetlight,synthetic_demo,en,streetlight_scenario_02
+We found a flickering lamp post at the junction near the bus stop. The damaged fitting may need a safety inspection.,streetlight,synthetic_demo,en,streetlight_scenario_02
+A flickering lamp post was observed at the junction near the bus stop. The damaged fitting may need a safety inspection.,streetlight,synthetic_demo,en,streetlight_scenario_02
+A resident reported a damaged light fixture at the walkway outside the community hall. Pedestrians cannot easily see the path at night.,streetlight,synthetic_demo,en,streetlight_scenario_03
+Please inspect the area at the walkway outside the community hall: a damaged light fixture is present. Pedestrians cannot easily see the path at night.,streetlight,synthetic_demo,en,streetlight_scenario_03
+There is a damaged light fixture at the walkway outside the community hall. Pedestrians cannot easily see the path at night.,streetlight,synthetic_demo,en,streetlight_scenario_03
+The problem at the walkway outside the community hall is a damaged light fixture. Pedestrians cannot easily see the path at night.,streetlight,synthetic_demo,en,streetlight_scenario_03
+We found a damaged light fixture at the walkway outside the community hall. Pedestrians cannot easily see the path at night.,streetlight,synthetic_demo,en,streetlight_scenario_03
+A damaged light fixture was observed at the walkway outside the community hall. Pedestrians cannot easily see the path at night.,streetlight,synthetic_demo,en,streetlight_scenario_03
+A resident reported a row of lights that goes dark at night at the path beside the library. Several people have reported poor visibility there.,streetlight,synthetic_demo,en,streetlight_scenario_04
+Please inspect the area at the path beside the library: a row of lights that goes dark at night is present. Several people have reported poor visibility there.,streetlight,synthetic_demo,en,streetlight_scenario_04
+There is a row of lights that goes dark at night at the path beside the library. Several people have reported poor visibility there.,streetlight,synthetic_demo,en,streetlight_scenario_04
+The problem at the path beside the library is a row of lights that goes dark at night. Several people have reported poor visibility there.,streetlight,synthetic_demo,en,streetlight_scenario_04
+We found a row of lights that goes dark at night at the path beside the library. Several people have reported poor visibility there.,streetlight,synthetic_demo,en,streetlight_scenario_04
+A row of lights that goes dark at night was observed at the path beside the library. Several people have reported poor visibility there.,streetlight,synthetic_demo,en,streetlight_scenario_04
+A resident reported an exposed electrical fitting on a lamp post at the lane behind the market. The damaged fitting may need a safety inspection.,streetlight,synthetic_demo,en,streetlight_scenario_05
+Please inspect the area at the lane behind the market: an exposed electrical fitting on a lamp post is present. The damaged fitting may need a safety inspection.,streetlight,synthetic_demo,en,streetlight_scenario_05
+There is an exposed electrical fitting on a lamp post at the lane behind the market. The damaged fitting may need a safety inspection.,streetlight,synthetic_demo,en,streetlight_scenario_05
+The problem at the lane behind the market is an exposed electrical fitting on a lamp post. The damaged fitting may need a safety inspection.,streetlight,synthetic_demo,en,streetlight_scenario_05
+We found an exposed electrical fitting on a lamp post at the lane behind the market. The damaged fitting may need a safety inspection.,streetlight,synthetic_demo,en,streetlight_scenario_05
+An exposed electrical fitting on a lamp post was observed at the lane behind the market. The damaged fitting may need a safety inspection.,streetlight,synthetic_demo,en,streetlight_scenario_05
+A resident reported a streetlight that does not turn on at the path beside the library. Pedestrians cannot easily see the path at night.,streetlight,synthetic_demo,en,streetlight_scenario_06
+Please inspect the area at the path beside the library: a streetlight that does not turn on is present. Pedestrians cannot easily see the path at night.,streetlight,synthetic_demo,en,streetlight_scenario_06
+There is a streetlight that does not turn on at the path beside the library. Pedestrians cannot easily see the path at night.,streetlight,synthetic_demo,en,streetlight_scenario_06
+The problem at the path beside the library is a streetlight that does not turn on. Pedestrians cannot easily see the path at night.,streetlight,synthetic_demo,en,streetlight_scenario_06
+We found a streetlight that does not turn on at the path beside the library. Pedestrians cannot easily see the path at night.,streetlight,synthetic_demo,en,streetlight_scenario_06
+A streetlight that does not turn on was observed at the path beside the library. Pedestrians cannot easily see the path at night.,streetlight,synthetic_demo,en,streetlight_scenario_06
+A resident reported a flickering lamp post at the lane behind the market. Several people have reported poor visibility there.,streetlight,synthetic_demo,en,streetlight_scenario_07
+Please inspect the area at the lane behind the market: a flickering lamp post is present. Several people have reported poor visibility there.,streetlight,synthetic_demo,en,streetlight_scenario_07
+There is a flickering lamp post at the lane behind the market. Several people have reported poor visibility there.,streetlight,synthetic_demo,en,streetlight_scenario_07
+The problem at the lane behind the market is a flickering lamp post. Several people have reported poor visibility there.,streetlight,synthetic_demo,en,streetlight_scenario_07
+We found a flickering lamp post at the lane behind the market. Several people have reported poor visibility there.,streetlight,synthetic_demo,en,streetlight_scenario_07
+A flickering lamp post was observed at the lane behind the market. Several people have reported poor visibility there.,streetlight,synthetic_demo,en,streetlight_scenario_07
+A resident reported a damaged light fixture at the north campus entrance. The light has failed for the past three evenings.,streetlight,synthetic_demo,en,streetlight_scenario_08
+Please inspect the area at the north campus entrance: a damaged light fixture is present. The light has failed for the past three evenings.,streetlight,synthetic_demo,en,streetlight_scenario_08
+There is a damaged light fixture at the north campus entrance. The light has failed for the past three evenings.,streetlight,synthetic_demo,en,streetlight_scenario_08
+The problem at the north campus entrance is a damaged light fixture. The light has failed for the past three evenings.,streetlight,synthetic_demo,en,streetlight_scenario_08
+We found a damaged light fixture at the north campus entrance. The light has failed for the past three evenings.,streetlight,synthetic_demo,en,streetlight_scenario_08
+A damaged light fixture was observed at the north campus entrance. The light has failed for the past three evenings.,streetlight,synthetic_demo,en,streetlight_scenario_08
+A resident reported a row of lights that goes dark at night at the junction near the bus stop. Pedestrians cannot easily see the path at night.,streetlight,synthetic_demo,en,streetlight_scenario_09
+Please inspect the area at the junction near the bus stop: a row of lights that goes dark at night is present. Pedestrians cannot easily see the path at night.,streetlight,synthetic_demo,en,streetlight_scenario_09
+There is a row of lights that goes dark at night at the junction near the bus stop. Pedestrians cannot easily see the path at night.,streetlight,synthetic_demo,en,streetlight_scenario_09
+The problem at the junction near the bus stop is a row of lights that goes dark at night. Pedestrians cannot easily see the path at night.,streetlight,synthetic_demo,en,streetlight_scenario_09
+We found a row of lights that goes dark at night at the junction near the bus stop. Pedestrians cannot easily see the path at night.,streetlight,synthetic_demo,en,streetlight_scenario_09
+A row of lights that goes dark at night was observed at the junction near the bus stop. Pedestrians cannot easily see the path at night.,streetlight,synthetic_demo,en,streetlight_scenario_09
+A resident reported an exposed electrical fitting on a lamp post at the walkway outside the community hall. Several people have reported poor visibility there.,streetlight,synthetic_demo,en,streetlight_scenario_10
+Please inspect the area at the walkway outside the community hall: an exposed electrical fitting on a lamp post is present. Several people have reported poor visibility there.,streetlight,synthetic_demo,en,streetlight_scenario_10
+There is an exposed electrical fitting on a lamp post at the walkway outside the community hall. Several people have reported poor visibility there.,streetlight,synthetic_demo,en,streetlight_scenario_10
+The problem at the walkway outside the community hall is an exposed electrical fitting on a lamp post. Several people have reported poor visibility there.,streetlight,synthetic_demo,en,streetlight_scenario_10
+We found an exposed electrical fitting on a lamp post at the walkway outside the community hall. Several people have reported poor visibility there.,streetlight,synthetic_demo,en,streetlight_scenario_10
+An exposed electrical fitting on a lamp post was observed at the walkway outside the community hall. Several people have reported poor visibility there.,streetlight,synthetic_demo,en,streetlight_scenario_10
+A resident reported a streetlight that does not turn on at the junction near the bus stop. The light has failed for the past three evenings.,streetlight,synthetic_demo,en,streetlight_scenario_11
+Please inspect the area at the junction near the bus stop: a streetlight that does not turn on is present. The light has failed for the past three evenings.,streetlight,synthetic_demo,en,streetlight_scenario_11
+There is a streetlight that does not turn on at the junction near the bus stop. The light has failed for the past three evenings.,streetlight,synthetic_demo,en,streetlight_scenario_11
+The problem at the junction near the bus stop is a streetlight that does not turn on. The light has failed for the past three evenings.,streetlight,synthetic_demo,en,streetlight_scenario_11
+We found a streetlight that does not turn on at the junction near the bus stop. The light has failed for the past three evenings.,streetlight,synthetic_demo,en,streetlight_scenario_11
+A streetlight that does not turn on was observed at the junction near the bus stop. The light has failed for the past three evenings.,streetlight,synthetic_demo,en,streetlight_scenario_11
+A resident reported a flickering lamp post at the walkway outside the community hall. The area is very dark after sunset.,streetlight,synthetic_demo,en,streetlight_scenario_12
+Please inspect the area at the walkway outside the community hall: a flickering lamp post is present. The area is very dark after sunset.,streetlight,synthetic_demo,en,streetlight_scenario_12
+There is a flickering lamp post at the walkway outside the community hall. The area is very dark after sunset.,streetlight,synthetic_demo,en,streetlight_scenario_12
+The problem at the walkway outside the community hall is a flickering lamp post. The area is very dark after sunset.,streetlight,synthetic_demo,en,streetlight_scenario_12
+We found a flickering lamp post at the walkway outside the community hall. The area is very dark after sunset.,streetlight,synthetic_demo,en,streetlight_scenario_12
+A flickering lamp post was observed at the walkway outside the community hall. The area is very dark after sunset.,streetlight,synthetic_demo,en,streetlight_scenario_12
+A resident reported a damaged light fixture at the path beside the library. Several people have reported poor visibility there.,streetlight,synthetic_demo,en,streetlight_scenario_13
+Please inspect the area at the path beside the library: a damaged light fixture is present. Several people have reported poor visibility there.,streetlight,synthetic_demo,en,streetlight_scenario_13
+There is a damaged light fixture at the path beside the library. Several people have reported poor visibility there.,streetlight,synthetic_demo,en,streetlight_scenario_13
+The problem at the path beside the library is a damaged light fixture. Several people have reported poor visibility there.,streetlight,synthetic_demo,en,streetlight_scenario_13
+We found a damaged light fixture at the path beside the library. Several people have reported poor visibility there.,streetlight,synthetic_demo,en,streetlight_scenario_13
+A damaged light fixture was observed at the path beside the library. Several people have reported poor visibility there.,streetlight,synthetic_demo,en,streetlight_scenario_13
+A resident reported a row of lights that goes dark at night at the lane behind the market. The light has failed for the past three evenings.,streetlight,synthetic_demo,en,streetlight_scenario_14
+Please inspect the area at the lane behind the market: a row of lights that goes dark at night is present. The light has failed for the past three evenings.,streetlight,synthetic_demo,en,streetlight_scenario_14
+There is a row of lights that goes dark at night at the lane behind the market. The light has failed for the past three evenings.,streetlight,synthetic_demo,en,streetlight_scenario_14
+The problem at the lane behind the market is a row of lights that goes dark at night. The light has failed for the past three evenings.,streetlight,synthetic_demo,en,streetlight_scenario_14
+We found a row of lights that goes dark at night at the lane behind the market. The light has failed for the past three evenings.,streetlight,synthetic_demo,en,streetlight_scenario_14
+A row of lights that goes dark at night was observed at the lane behind the market. The light has failed for the past three evenings.,streetlight,synthetic_demo,en,streetlight_scenario_14
+A resident reported an exposed electrical fitting on a lamp post at the north campus entrance. The area is very dark after sunset.,streetlight,synthetic_demo,en,streetlight_scenario_15
+Please inspect the area at the north campus entrance: an exposed electrical fitting on a lamp post is present. The area is very dark after sunset.,streetlight,synthetic_demo,en,streetlight_scenario_15
+There is an exposed electrical fitting on a lamp post at the north campus entrance. The area is very dark after sunset.,streetlight,synthetic_demo,en,streetlight_scenario_15
+The problem at the north campus entrance is an exposed electrical fitting on a lamp post. The area is very dark after sunset.,streetlight,synthetic_demo,en,streetlight_scenario_15
+We found an exposed electrical fitting on a lamp post at the north campus entrance. The area is very dark after sunset.,streetlight,synthetic_demo,en,streetlight_scenario_15
+An exposed electrical fitting on a lamp post was observed at the north campus entrance. The area is very dark after sunset.,streetlight,synthetic_demo,en,streetlight_scenario_15
+A resident reported a streetlight that does not turn on at the lane behind the market. The damaged fitting may need a safety inspection.,streetlight,synthetic_demo,en,streetlight_scenario_16
+Please inspect the area at the lane behind the market: a streetlight that does not turn on is present. The damaged fitting may need a safety inspection.,streetlight,synthetic_demo,en,streetlight_scenario_16
+There is a streetlight that does not turn on at the lane behind the market. The damaged fitting may need a safety inspection.,streetlight,synthetic_demo,en,streetlight_scenario_16
+The problem at the lane behind the market is a streetlight that does not turn on. The damaged fitting may need a safety inspection.,streetlight,synthetic_demo,en,streetlight_scenario_16
+We found a streetlight that does not turn on at the lane behind the market. The damaged fitting may need a safety inspection.,streetlight,synthetic_demo,en,streetlight_scenario_16
+A streetlight that does not turn on was observed at the lane behind the market. The damaged fitting may need a safety inspection.,streetlight,synthetic_demo,en,streetlight_scenario_16
+A resident reported a flickering lamp post at the north campus entrance. The light has failed for the past three evenings.,streetlight,synthetic_demo,en,streetlight_scenario_17
+Please inspect the area at the north campus entrance: a flickering lamp post is present. The light has failed for the past three evenings.,streetlight,synthetic_demo,en,streetlight_scenario_17
+There is a flickering lamp post at the north campus entrance. The light has failed for the past three evenings.,streetlight,synthetic_demo,en,streetlight_scenario_17
+The problem at the north campus entrance is a flickering lamp post. The light has failed for the past three evenings.,streetlight,synthetic_demo,en,streetlight_scenario_17
+We found a flickering lamp post at the north campus entrance. The light has failed for the past three evenings.,streetlight,synthetic_demo,en,streetlight_scenario_17
+A flickering lamp post was observed at the north campus entrance. The light has failed for the past three evenings.,streetlight,synthetic_demo,en,streetlight_scenario_17
+A resident reported a damaged light fixture at the junction near the bus stop. The area is very dark after sunset.,streetlight,synthetic_demo,en,streetlight_scenario_18
+Please inspect the area at the junction near the bus stop: a damaged light fixture is present. The area is very dark after sunset.,streetlight,synthetic_demo,en,streetlight_scenario_18
+There is a damaged light fixture at the junction near the bus stop. The area is very dark after sunset.,streetlight,synthetic_demo,en,streetlight_scenario_18
+The problem at the junction near the bus stop is a damaged light fixture. The area is very dark after sunset.,streetlight,synthetic_demo,en,streetlight_scenario_18
+We found a damaged light fixture at the junction near the bus stop. The area is very dark after sunset.,streetlight,synthetic_demo,en,streetlight_scenario_18
+A damaged light fixture was observed at the junction near the bus stop. The area is very dark after sunset.,streetlight,synthetic_demo,en,streetlight_scenario_18
+A resident reported a row of lights that goes dark at night at the walkway outside the community hall. The damaged fitting may need a safety inspection.,streetlight,synthetic_demo,en,streetlight_scenario_19
+Please inspect the area at the walkway outside the community hall: a row of lights that goes dark at night is present. The damaged fitting may need a safety inspection.,streetlight,synthetic_demo,en,streetlight_scenario_19
+There is a row of lights that goes dark at night at the walkway outside the community hall. The damaged fitting may need a safety inspection.,streetlight,synthetic_demo,en,streetlight_scenario_19
+The problem at the walkway outside the community hall is a row of lights that goes dark at night. The damaged fitting may need a safety inspection.,streetlight,synthetic_demo,en,streetlight_scenario_19
+We found a row of lights that goes dark at night at the walkway outside the community hall. The damaged fitting may need a safety inspection.,streetlight,synthetic_demo,en,streetlight_scenario_19
+A row of lights that goes dark at night was observed at the walkway outside the community hall. The damaged fitting may need a safety inspection.,streetlight,synthetic_demo,en,streetlight_scenario_19
+A resident reported an exposed electrical fitting on a lamp post at the path beside the library. Pedestrians cannot easily see the path at night.,streetlight,synthetic_demo,en,streetlight_scenario_20
+Please inspect the area at the path beside the library: an exposed electrical fitting on a lamp post is present. Pedestrians cannot easily see the path at night.,streetlight,synthetic_demo,en,streetlight_scenario_20
+There is an exposed electrical fitting on a lamp post at the path beside the library. Pedestrians cannot easily see the path at night.,streetlight,synthetic_demo,en,streetlight_scenario_20
+The problem at the path beside the library is an exposed electrical fitting on a lamp post. Pedestrians cannot easily see the path at night.,streetlight,synthetic_demo,en,streetlight_scenario_20
+We found an exposed electrical fitting on a lamp post at the path beside the library. Pedestrians cannot easily see the path at night.,streetlight,synthetic_demo,en,streetlight_scenario_20
+An exposed electrical fitting on a lamp post was observed at the path beside the library. Pedestrians cannot easily see the path at night.,streetlight,synthetic_demo,en,streetlight_scenario_20
+A resident reported a leaking water pipe at the north campus entrance. Water is pooling and making the route slippery.,water_drainage,synthetic_demo,en,water_drainage_scenario_01
+Please inspect the area at the north campus entrance: a leaking water pipe is present. Water is pooling and making the route slippery.,water_drainage,synthetic_demo,en,water_drainage_scenario_01
+There is a leaking water pipe at the north campus entrance. Water is pooling and making the route slippery.,water_drainage,synthetic_demo,en,water_drainage_scenario_01
+The problem at the north campus entrance is a leaking water pipe. Water is pooling and making the route slippery.,water_drainage,synthetic_demo,en,water_drainage_scenario_01
+We found a leaking water pipe at the north campus entrance. Water is pooling and making the route slippery.,water_drainage,synthetic_demo,en,water_drainage_scenario_01
+A leaking water pipe was observed at the north campus entrance. Water is pooling and making the route slippery.,water_drainage,synthetic_demo,en,water_drainage_scenario_01
+A resident reported a blocked storm drain at the junction near the bus stop. People are stepping into the road to get around it.,water_drainage,synthetic_demo,en,water_drainage_scenario_02
+Please inspect the area at the junction near the bus stop: a blocked storm drain is present. People are stepping into the road to get around it.,water_drainage,synthetic_demo,en,water_drainage_scenario_02
+There is a blocked storm drain at the junction near the bus stop. People are stepping into the road to get around it.,water_drainage,synthetic_demo,en,water_drainage_scenario_02
+The problem at the junction near the bus stop is a blocked storm drain. People are stepping into the road to get around it.,water_drainage,synthetic_demo,en,water_drainage_scenario_02
+We found a blocked storm drain at the junction near the bus stop. People are stepping into the road to get around it.,water_drainage,synthetic_demo,en,water_drainage_scenario_02
+A blocked storm drain was observed at the junction near the bus stop. People are stepping into the road to get around it.,water_drainage,synthetic_demo,en,water_drainage_scenario_02
+A resident reported standing water across the pavement at the walkway outside the community hall. The drain backs up whenever it rains.,water_drainage,synthetic_demo,en,water_drainage_scenario_03
+Please inspect the area at the walkway outside the community hall: standing water across the pavement is present. The drain backs up whenever it rains.,water_drainage,synthetic_demo,en,water_drainage_scenario_03
+There is standing water across the pavement at the walkway outside the community hall. The drain backs up whenever it rains.,water_drainage,synthetic_demo,en,water_drainage_scenario_03
+The problem at the walkway outside the community hall is standing water across the pavement. The drain backs up whenever it rains.,water_drainage,synthetic_demo,en,water_drainage_scenario_03
+We found standing water across the pavement at the walkway outside the community hall. The drain backs up whenever it rains.,water_drainage,synthetic_demo,en,water_drainage_scenario_03
+Standing water across the pavement was observed at the walkway outside the community hall. The drain backs up whenever it rains.,water_drainage,synthetic_demo,en,water_drainage_scenario_03
+A resident reported a drain cover that is missing at the path beside the library. The water is flowing toward nearby buildings.,water_drainage,synthetic_demo,en,water_drainage_scenario_04
+Please inspect the area at the path beside the library: a drain cover that is missing is present. The water is flowing toward nearby buildings.,water_drainage,synthetic_demo,en,water_drainage_scenario_04
+There is a drain cover that is missing at the path beside the library. The water is flowing toward nearby buildings.,water_drainage,synthetic_demo,en,water_drainage_scenario_04
+The problem at the path beside the library is a drain cover that is missing. The water is flowing toward nearby buildings.,water_drainage,synthetic_demo,en,water_drainage_scenario_04
+We found a drain cover that is missing at the path beside the library. The water is flowing toward nearby buildings.,water_drainage,synthetic_demo,en,water_drainage_scenario_04
+A drain cover that is missing was observed at the path beside the library. The water is flowing toward nearby buildings.,water_drainage,synthetic_demo,en,water_drainage_scenario_04
+A resident reported wastewater flowing from a damaged outlet at the lane behind the market. People are stepping into the road to get around it.,water_drainage,synthetic_demo,en,water_drainage_scenario_05
+Please inspect the area at the lane behind the market: wastewater flowing from a damaged outlet is present. People are stepping into the road to get around it.,water_drainage,synthetic_demo,en,water_drainage_scenario_05
+There is wastewater flowing from a damaged outlet at the lane behind the market. People are stepping into the road to get around it.,water_drainage,synthetic_demo,en,water_drainage_scenario_05
+The problem at the lane behind the market is wastewater flowing from a damaged outlet. People are stepping into the road to get around it.,water_drainage,synthetic_demo,en,water_drainage_scenario_05
+We found wastewater flowing from a damaged outlet at the lane behind the market. People are stepping into the road to get around it.,water_drainage,synthetic_demo,en,water_drainage_scenario_05
+Wastewater flowing from a damaged outlet was observed at the lane behind the market. People are stepping into the road to get around it.,water_drainage,synthetic_demo,en,water_drainage_scenario_05
+A resident reported a leaking water pipe at the path beside the library. The drain backs up whenever it rains.,water_drainage,synthetic_demo,en,water_drainage_scenario_06
+Please inspect the area at the path beside the library: a leaking water pipe is present. The drain backs up whenever it rains.,water_drainage,synthetic_demo,en,water_drainage_scenario_06
+There is a leaking water pipe at the path beside the library. The drain backs up whenever it rains.,water_drainage,synthetic_demo,en,water_drainage_scenario_06
+The problem at the path beside the library is a leaking water pipe. The drain backs up whenever it rains.,water_drainage,synthetic_demo,en,water_drainage_scenario_06
+We found a leaking water pipe at the path beside the library. The drain backs up whenever it rains.,water_drainage,synthetic_demo,en,water_drainage_scenario_06
+A leaking water pipe was observed at the path beside the library. The drain backs up whenever it rains.,water_drainage,synthetic_demo,en,water_drainage_scenario_06
+A resident reported a blocked storm drain at the lane behind the market. The water is flowing toward nearby buildings.,water_drainage,synthetic_demo,en,water_drainage_scenario_07
+Please inspect the area at the lane behind the market: a blocked storm drain is present. The water is flowing toward nearby buildings.,water_drainage,synthetic_demo,en,water_drainage_scenario_07
+There is a blocked storm drain at the lane behind the market. The water is flowing toward nearby buildings.,water_drainage,synthetic_demo,en,water_drainage_scenario_07
+The problem at the lane behind the market is a blocked storm drain. The water is flowing toward nearby buildings.,water_drainage,synthetic_demo,en,water_drainage_scenario_07
+We found a blocked storm drain at the lane behind the market. The water is flowing toward nearby buildings.,water_drainage,synthetic_demo,en,water_drainage_scenario_07
+A blocked storm drain was observed at the lane behind the market. The water is flowing toward nearby buildings.,water_drainage,synthetic_demo,en,water_drainage_scenario_07
+A resident reported standing water across the pavement at the north campus entrance. The leak has continued throughout the day.,water_drainage,synthetic_demo,en,water_drainage_scenario_08
+Please inspect the area at the north campus entrance: standing water across the pavement is present. The leak has continued throughout the day.,water_drainage,synthetic_demo,en,water_drainage_scenario_08
+There is standing water across the pavement at the north campus entrance. The leak has continued throughout the day.,water_drainage,synthetic_demo,en,water_drainage_scenario_08
+The problem at the north campus entrance is standing water across the pavement. The leak has continued throughout the day.,water_drainage,synthetic_demo,en,water_drainage_scenario_08
+We found standing water across the pavement at the north campus entrance. The leak has continued throughout the day.,water_drainage,synthetic_demo,en,water_drainage_scenario_08
+Standing water across the pavement was observed at the north campus entrance. The leak has continued throughout the day.,water_drainage,synthetic_demo,en,water_drainage_scenario_08
+A resident reported a drain cover that is missing at the junction near the bus stop. The drain backs up whenever it rains.,water_drainage,synthetic_demo,en,water_drainage_scenario_09
+Please inspect the area at the junction near the bus stop: a drain cover that is missing is present. The drain backs up whenever it rains.,water_drainage,synthetic_demo,en,water_drainage_scenario_09
+There is a drain cover that is missing at the junction near the bus stop. The drain backs up whenever it rains.,water_drainage,synthetic_demo,en,water_drainage_scenario_09
+The problem at the junction near the bus stop is a drain cover that is missing. The drain backs up whenever it rains.,water_drainage,synthetic_demo,en,water_drainage_scenario_09
+We found a drain cover that is missing at the junction near the bus stop. The drain backs up whenever it rains.,water_drainage,synthetic_demo,en,water_drainage_scenario_09
+A drain cover that is missing was observed at the junction near the bus stop. The drain backs up whenever it rains.,water_drainage,synthetic_demo,en,water_drainage_scenario_09
+A resident reported wastewater flowing from a damaged outlet at the walkway outside the community hall. The water is flowing toward nearby buildings.,water_drainage,synthetic_demo,en,water_drainage_scenario_10
+Please inspect the area at the walkway outside the community hall: wastewater flowing from a damaged outlet is present. The water is flowing toward nearby buildings.,water_drainage,synthetic_demo,en,water_drainage_scenario_10
+There is wastewater flowing from a damaged outlet at the walkway outside the community hall. The water is flowing toward nearby buildings.,water_drainage,synthetic_demo,en,water_drainage_scenario_10
+The problem at the walkway outside the community hall is wastewater flowing from a damaged outlet. The water is flowing toward nearby buildings.,water_drainage,synthetic_demo,en,water_drainage_scenario_10
+We found wastewater flowing from a damaged outlet at the walkway outside the community hall. The water is flowing toward nearby buildings.,water_drainage,synthetic_demo,en,water_drainage_scenario_10
+Wastewater flowing from a damaged outlet was observed at the walkway outside the community hall. The water is flowing toward nearby buildings.,water_drainage,synthetic_demo,en,water_drainage_scenario_10
+A resident reported a leaking water pipe at the junction near the bus stop. The leak has continued throughout the day.,water_drainage,synthetic_demo,en,water_drainage_scenario_11
+Please inspect the area at the junction near the bus stop: a leaking water pipe is present. The leak has continued throughout the day.,water_drainage,synthetic_demo,en,water_drainage_scenario_11
+There is a leaking water pipe at the junction near the bus stop. The leak has continued throughout the day.,water_drainage,synthetic_demo,en,water_drainage_scenario_11
+The problem at the junction near the bus stop is a leaking water pipe. The leak has continued throughout the day.,water_drainage,synthetic_demo,en,water_drainage_scenario_11
+We found a leaking water pipe at the junction near the bus stop. The leak has continued throughout the day.,water_drainage,synthetic_demo,en,water_drainage_scenario_11
+A leaking water pipe was observed at the junction near the bus stop. The leak has continued throughout the day.,water_drainage,synthetic_demo,en,water_drainage_scenario_11
+A resident reported a blocked storm drain at the walkway outside the community hall. Water is pooling and making the route slippery.,water_drainage,synthetic_demo,en,water_drainage_scenario_12
+Please inspect the area at the walkway outside the community hall: a blocked storm drain is present. Water is pooling and making the route slippery.,water_drainage,synthetic_demo,en,water_drainage_scenario_12
+There is a blocked storm drain at the walkway outside the community hall. Water is pooling and making the route slippery.,water_drainage,synthetic_demo,en,water_drainage_scenario_12
+The problem at the walkway outside the community hall is a blocked storm drain. Water is pooling and making the route slippery.,water_drainage,synthetic_demo,en,water_drainage_scenario_12
+We found a blocked storm drain at the walkway outside the community hall. Water is pooling and making the route slippery.,water_drainage,synthetic_demo,en,water_drainage_scenario_12
+A blocked storm drain was observed at the walkway outside the community hall. Water is pooling and making the route slippery.,water_drainage,synthetic_demo,en,water_drainage_scenario_12
+A resident reported standing water across the pavement at the path beside the library. The water is flowing toward nearby buildings.,water_drainage,synthetic_demo,en,water_drainage_scenario_13
+Please inspect the area at the path beside the library: standing water across the pavement is present. The water is flowing toward nearby buildings.,water_drainage,synthetic_demo,en,water_drainage_scenario_13
+There is standing water across the pavement at the path beside the library. The water is flowing toward nearby buildings.,water_drainage,synthetic_demo,en,water_drainage_scenario_13
+The problem at the path beside the library is standing water across the pavement. The water is flowing toward nearby buildings.,water_drainage,synthetic_demo,en,water_drainage_scenario_13
+We found standing water across the pavement at the path beside the library. The water is flowing toward nearby buildings.,water_drainage,synthetic_demo,en,water_drainage_scenario_13
+Standing water across the pavement was observed at the path beside the library. The water is flowing toward nearby buildings.,water_drainage,synthetic_demo,en,water_drainage_scenario_13
+A resident reported a drain cover that is missing at the lane behind the market. The leak has continued throughout the day.,water_drainage,synthetic_demo,en,water_drainage_scenario_14
+Please inspect the area at the lane behind the market: a drain cover that is missing is present. The leak has continued throughout the day.,water_drainage,synthetic_demo,en,water_drainage_scenario_14
+There is a drain cover that is missing at the lane behind the market. The leak has continued throughout the day.,water_drainage,synthetic_demo,en,water_drainage_scenario_14
+The problem at the lane behind the market is a drain cover that is missing. The leak has continued throughout the day.,water_drainage,synthetic_demo,en,water_drainage_scenario_14
+We found a drain cover that is missing at the lane behind the market. The leak has continued throughout the day.,water_drainage,synthetic_demo,en,water_drainage_scenario_14
+A drain cover that is missing was observed at the lane behind the market. The leak has continued throughout the day.,water_drainage,synthetic_demo,en,water_drainage_scenario_14
+A resident reported wastewater flowing from a damaged outlet at the north campus entrance. Water is pooling and making the route slippery.,water_drainage,synthetic_demo,en,water_drainage_scenario_15
+Please inspect the area at the north campus entrance: wastewater flowing from a damaged outlet is present. Water is pooling and making the route slippery.,water_drainage,synthetic_demo,en,water_drainage_scenario_15
+There is wastewater flowing from a damaged outlet at the north campus entrance. Water is pooling and making the route slippery.,water_drainage,synthetic_demo,en,water_drainage_scenario_15
+The problem at the north campus entrance is wastewater flowing from a damaged outlet. Water is pooling and making the route slippery.,water_drainage,synthetic_demo,en,water_drainage_scenario_15
+We found wastewater flowing from a damaged outlet at the north campus entrance. Water is pooling and making the route slippery.,water_drainage,synthetic_demo,en,water_drainage_scenario_15
+Wastewater flowing from a damaged outlet was observed at the north campus entrance. Water is pooling and making the route slippery.,water_drainage,synthetic_demo,en,water_drainage_scenario_15
+A resident reported a leaking water pipe at the lane behind the market. People are stepping into the road to get around it.,water_drainage,synthetic_demo,en,water_drainage_scenario_16
+Please inspect the area at the lane behind the market: a leaking water pipe is present. People are stepping into the road to get around it.,water_drainage,synthetic_demo,en,water_drainage_scenario_16
+There is a leaking water pipe at the lane behind the market. People are stepping into the road to get around it.,water_drainage,synthetic_demo,en,water_drainage_scenario_16
+The problem at the lane behind the market is a leaking water pipe. People are stepping into the road to get around it.,water_drainage,synthetic_demo,en,water_drainage_scenario_16
+We found a leaking water pipe at the lane behind the market. People are stepping into the road to get around it.,water_drainage,synthetic_demo,en,water_drainage_scenario_16
+A leaking water pipe was observed at the lane behind the market. People are stepping into the road to get around it.,water_drainage,synthetic_demo,en,water_drainage_scenario_16
+A resident reported a blocked storm drain at the north campus entrance. The leak has continued throughout the day.,water_drainage,synthetic_demo,en,water_drainage_scenario_17
+Please inspect the area at the north campus entrance: a blocked storm drain is present. The leak has continued throughout the day.,water_drainage,synthetic_demo,en,water_drainage_scenario_17
+There is a blocked storm drain at the north campus entrance. The leak has continued throughout the day.,water_drainage,synthetic_demo,en,water_drainage_scenario_17
+The problem at the north campus entrance is a blocked storm drain. The leak has continued throughout the day.,water_drainage,synthetic_demo,en,water_drainage_scenario_17
+We found a blocked storm drain at the north campus entrance. The leak has continued throughout the day.,water_drainage,synthetic_demo,en,water_drainage_scenario_17
+A blocked storm drain was observed at the north campus entrance. The leak has continued throughout the day.,water_drainage,synthetic_demo,en,water_drainage_scenario_17
+A resident reported standing water across the pavement at the junction near the bus stop. Water is pooling and making the route slippery.,water_drainage,synthetic_demo,en,water_drainage_scenario_18
+Please inspect the area at the junction near the bus stop: standing water across the pavement is present. Water is pooling and making the route slippery.,water_drainage,synthetic_demo,en,water_drainage_scenario_18
+There is standing water across the pavement at the junction near the bus stop. Water is pooling and making the route slippery.,water_drainage,synthetic_demo,en,water_drainage_scenario_18
+The problem at the junction near the bus stop is standing water across the pavement. Water is pooling and making the route slippery.,water_drainage,synthetic_demo,en,water_drainage_scenario_18
+We found standing water across the pavement at the junction near the bus stop. Water is pooling and making the route slippery.,water_drainage,synthetic_demo,en,water_drainage_scenario_18
+Standing water across the pavement was observed at the junction near the bus stop. Water is pooling and making the route slippery.,water_drainage,synthetic_demo,en,water_drainage_scenario_18
+A resident reported a drain cover that is missing at the walkway outside the community hall. People are stepping into the road to get around it.,water_drainage,synthetic_demo,en,water_drainage_scenario_19
+Please inspect the area at the walkway outside the community hall: a drain cover that is missing is present. People are stepping into the road to get around it.,water_drainage,synthetic_demo,en,water_drainage_scenario_19
+There is a drain cover that is missing at the walkway outside the community hall. People are stepping into the road to get around it.,water_drainage,synthetic_demo,en,water_drainage_scenario_19
+The problem at the walkway outside the community hall is a drain cover that is missing. People are stepping into the road to get around it.,water_drainage,synthetic_demo,en,water_drainage_scenario_19
+We found a drain cover that is missing at the walkway outside the community hall. People are stepping into the road to get around it.,water_drainage,synthetic_demo,en,water_drainage_scenario_19
+A drain cover that is missing was observed at the walkway outside the community hall. People are stepping into the road to get around it.,water_drainage,synthetic_demo,en,water_drainage_scenario_19
+A resident reported wastewater flowing from a damaged outlet at the path beside the library. The drain backs up whenever it rains.,water_drainage,synthetic_demo,en,water_drainage_scenario_20
+Please inspect the area at the path beside the library: wastewater flowing from a damaged outlet is present. The drain backs up whenever it rains.,water_drainage,synthetic_demo,en,water_drainage_scenario_20
+There is wastewater flowing from a damaged outlet at the path beside the library. The drain backs up whenever it rains.,water_drainage,synthetic_demo,en,water_drainage_scenario_20
+The problem at the path beside the library is wastewater flowing from a damaged outlet. The drain backs up whenever it rains.,water_drainage,synthetic_demo,en,water_drainage_scenario_20
+We found wastewater flowing from a damaged outlet at the path beside the library. The drain backs up whenever it rains.,water_drainage,synthetic_demo,en,water_drainage_scenario_20
+Wastewater flowing from a damaged outlet was observed at the path beside the library. The drain backs up whenever it rains.,water_drainage,synthetic_demo,en,water_drainage_scenario_20
+A resident reported a damaged public bench at the north campus entrance. The structure is unstable and needs inspection.,public_property,synthetic_demo,en,public_property_scenario_01
+Please inspect the area at the north campus entrance: a damaged public bench is present. The structure is unstable and needs inspection.,public_property,synthetic_demo,en,public_property_scenario_01
+There is a damaged public bench at the north campus entrance. The structure is unstable and needs inspection.,public_property,synthetic_demo,en,public_property_scenario_01
+The problem at the north campus entrance is a damaged public bench. The structure is unstable and needs inspection.,public_property,synthetic_demo,en,public_property_scenario_01
+We found a damaged public bench at the north campus entrance. The structure is unstable and needs inspection.,public_property,synthetic_demo,en,public_property_scenario_01
+A damaged public bench was observed at the north campus entrance. The structure is unstable and needs inspection.,public_property,synthetic_demo,en,public_property_scenario_01
+A resident reported a broken section of boundary railing at the courtyard near the bus stop. The defect is obstructing the accessible route.,public_property,synthetic_demo,en,public_property_scenario_02
+Please inspect the area at the courtyard near the bus stop: a broken section of boundary railing is present. The defect is obstructing the accessible route.,public_property,synthetic_demo,en,public_property_scenario_02
+There is a broken section of boundary railing at the courtyard near the bus stop. The defect is obstructing the accessible route.,public_property,synthetic_demo,en,public_property_scenario_02
+The problem at the courtyard near the bus stop is a broken section of boundary railing. The defect is obstructing the accessible route.,public_property,synthetic_demo,en,public_property_scenario_02
+We found a broken section of boundary railing at the courtyard near the bus stop. The defect is obstructing the accessible route.,public_property,synthetic_demo,en,public_property_scenario_02
+A broken section of boundary railing was observed at the courtyard near the bus stop. The defect is obstructing the accessible route.,public_property,synthetic_demo,en,public_property_scenario_02
+A resident reported a cracked pavement slab at the walkway outside the community hall. People cannot use the facility as intended.,public_property,synthetic_demo,en,public_property_scenario_03
+Please inspect the area at the walkway outside the community hall: a cracked pavement slab is present. People cannot use the facility as intended.,public_property,synthetic_demo,en,public_property_scenario_03
+There is a cracked pavement slab at the walkway outside the community hall. People cannot use the facility as intended.,public_property,synthetic_demo,en,public_property_scenario_03
+The problem at the walkway outside the community hall is a cracked pavement slab. People cannot use the facility as intended.,public_property,synthetic_demo,en,public_property_scenario_03
+We found a cracked pavement slab at the walkway outside the community hall. People cannot use the facility as intended.,public_property,synthetic_demo,en,public_property_scenario_03
+A cracked pavement slab was observed at the walkway outside the community hall. People cannot use the facility as intended.,public_property,synthetic_demo,en,public_property_scenario_03
+A resident reported a damaged signpost at the path beside the library. The public fixture has been damaged for a week.,public_property,synthetic_demo,en,public_property_scenario_04
+Please inspect the area at the path beside the library: a damaged signpost is present. The public fixture has been damaged for a week.,public_property,synthetic_demo,en,public_property_scenario_04
+There is a damaged signpost at the path beside the library. The public fixture has been damaged for a week.,public_property,synthetic_demo,en,public_property_scenario_04
+The problem at the path beside the library is a damaged signpost. The public fixture has been damaged for a week.,public_property,synthetic_demo,en,public_property_scenario_04
+We found a damaged signpost at the path beside the library. The public fixture has been damaged for a week.,public_property,synthetic_demo,en,public_property_scenario_04
+A damaged signpost was observed at the path beside the library. The public fixture has been damaged for a week.,public_property,synthetic_demo,en,public_property_scenario_04
+A resident reported a broken handrail on the public steps at the lane behind the market. The defect is obstructing the accessible route.,public_property,synthetic_demo,en,public_property_scenario_05
+Please inspect the area at the lane behind the market: a broken handrail on the public steps is present. The defect is obstructing the accessible route.,public_property,synthetic_demo,en,public_property_scenario_05
+There is a broken handrail on the public steps at the lane behind the market. The defect is obstructing the accessible route.,public_property,synthetic_demo,en,public_property_scenario_05
+The problem at the lane behind the market is a broken handrail on the public steps. The defect is obstructing the accessible route.,public_property,synthetic_demo,en,public_property_scenario_05
+We found a broken handrail on the public steps at the lane behind the market. The defect is obstructing the accessible route.,public_property,synthetic_demo,en,public_property_scenario_05
+A broken handrail on the public steps was observed at the lane behind the market. The defect is obstructing the accessible route.,public_property,synthetic_demo,en,public_property_scenario_05
+A resident reported a damaged public bench at the path beside the library. People cannot use the facility as intended.,public_property,synthetic_demo,en,public_property_scenario_06
+Please inspect the area at the path beside the library: a damaged public bench is present. People cannot use the facility as intended.,public_property,synthetic_demo,en,public_property_scenario_06
+There is a damaged public bench at the path beside the library. People cannot use the facility as intended.,public_property,synthetic_demo,en,public_property_scenario_06
+The problem at the path beside the library is a damaged public bench. People cannot use the facility as intended.,public_property,synthetic_demo,en,public_property_scenario_06
+We found a damaged public bench at the path beside the library. People cannot use the facility as intended.,public_property,synthetic_demo,en,public_property_scenario_06
+A damaged public bench was observed at the path beside the library. People cannot use the facility as intended.,public_property,synthetic_demo,en,public_property_scenario_06
+A resident reported a broken section of boundary railing at the lane behind the market. The public fixture has been damaged for a week.,public_property,synthetic_demo,en,public_property_scenario_07
+Please inspect the area at the lane behind the market: a broken section of boundary railing is present. The public fixture has been damaged for a week.,public_property,synthetic_demo,en,public_property_scenario_07
+There is a broken section of boundary railing at the lane behind the market. The public fixture has been damaged for a week.,public_property,synthetic_demo,en,public_property_scenario_07
+The problem at the lane behind the market is a broken section of boundary railing. The public fixture has been damaged for a week.,public_property,synthetic_demo,en,public_property_scenario_07
+We found a broken section of boundary railing at the lane behind the market. The public fixture has been damaged for a week.,public_property,synthetic_demo,en,public_property_scenario_07
+A broken section of boundary railing was observed at the lane behind the market. The public fixture has been damaged for a week.,public_property,synthetic_demo,en,public_property_scenario_07
+A resident reported a cracked pavement slab at the north campus entrance. A sharp edge is exposed along the damaged part.,public_property,synthetic_demo,en,public_property_scenario_08
+Please inspect the area at the north campus entrance: a cracked pavement slab is present. A sharp edge is exposed along the damaged part.,public_property,synthetic_demo,en,public_property_scenario_08
+There is a cracked pavement slab at the north campus entrance. A sharp edge is exposed along the damaged part.,public_property,synthetic_demo,en,public_property_scenario_08
+The problem at the north campus entrance is a cracked pavement slab. A sharp edge is exposed along the damaged part.,public_property,synthetic_demo,en,public_property_scenario_08
+We found a cracked pavement slab at the north campus entrance. A sharp edge is exposed along the damaged part.,public_property,synthetic_demo,en,public_property_scenario_08
+A cracked pavement slab was observed at the north campus entrance. A sharp edge is exposed along the damaged part.,public_property,synthetic_demo,en,public_property_scenario_08
+A resident reported a damaged signpost at the courtyard near the bus stop. People cannot use the facility as intended.,public_property,synthetic_demo,en,public_property_scenario_09
+Please inspect the area at the courtyard near the bus stop: a damaged signpost is present. People cannot use the facility as intended.,public_property,synthetic_demo,en,public_property_scenario_09
+There is a damaged signpost at the courtyard near the bus stop. People cannot use the facility as intended.,public_property,synthetic_demo,en,public_property_scenario_09
+The problem at the courtyard near the bus stop is a damaged signpost. People cannot use the facility as intended.,public_property,synthetic_demo,en,public_property_scenario_09
+We found a damaged signpost at the courtyard near the bus stop. People cannot use the facility as intended.,public_property,synthetic_demo,en,public_property_scenario_09
+A damaged signpost was observed at the courtyard near the bus stop. People cannot use the facility as intended.,public_property,synthetic_demo,en,public_property_scenario_09
+A resident reported a broken handrail on the public steps at the walkway outside the community hall. The public fixture has been damaged for a week.,public_property,synthetic_demo,en,public_property_scenario_10
+Please inspect the area at the walkway outside the community hall: a broken handrail on the public steps is present. The public fixture has been damaged for a week.,public_property,synthetic_demo,en,public_property_scenario_10
+There is a broken handrail on the public steps at the walkway outside the community hall. The public fixture has been damaged for a week.,public_property,synthetic_demo,en,public_property_scenario_10
+The problem at the walkway outside the community hall is a broken handrail on the public steps. The public fixture has been damaged for a week.,public_property,synthetic_demo,en,public_property_scenario_10
+We found a broken handrail on the public steps at the walkway outside the community hall. The public fixture has been damaged for a week.,public_property,synthetic_demo,en,public_property_scenario_10
+A broken handrail on the public steps was observed at the walkway outside the community hall. The public fixture has been damaged for a week.,public_property,synthetic_demo,en,public_property_scenario_10
+A resident reported a damaged public bench at the courtyard near the bus stop. A sharp edge is exposed along the damaged part.,public_property,synthetic_demo,en,public_property_scenario_11
+Please inspect the area at the courtyard near the bus stop: a damaged public bench is present. A sharp edge is exposed along the damaged part.,public_property,synthetic_demo,en,public_property_scenario_11
+There is a damaged public bench at the courtyard near the bus stop. A sharp edge is exposed along the damaged part.,public_property,synthetic_demo,en,public_property_scenario_11
+The problem at the courtyard near the bus stop is a damaged public bench. A sharp edge is exposed along the damaged part.,public_property,synthetic_demo,en,public_property_scenario_11
+We found a damaged public bench at the courtyard near the bus stop. A sharp edge is exposed along the damaged part.,public_property,synthetic_demo,en,public_property_scenario_11
+A damaged public bench was observed at the courtyard near the bus stop. A sharp edge is exposed along the damaged part.,public_property,synthetic_demo,en,public_property_scenario_11
+A resident reported a broken section of boundary railing at the walkway outside the community hall. The structure is unstable and needs inspection.,public_property,synthetic_demo,en,public_property_scenario_12
+Please inspect the area at the walkway outside the community hall: a broken section of boundary railing is present. The structure is unstable and needs inspection.,public_property,synthetic_demo,en,public_property_scenario_12
+There is a broken section of boundary railing at the walkway outside the community hall. The structure is unstable and needs inspection.,public_property,synthetic_demo,en,public_property_scenario_12
+The problem at the walkway outside the community hall is a broken section of boundary railing. The structure is unstable and needs inspection.,public_property,synthetic_demo,en,public_property_scenario_12
+We found a broken section of boundary railing at the walkway outside the community hall. The structure is unstable and needs inspection.,public_property,synthetic_demo,en,public_property_scenario_12
+A broken section of boundary railing was observed at the walkway outside the community hall. The structure is unstable and needs inspection.,public_property,synthetic_demo,en,public_property_scenario_12
+A resident reported a cracked pavement slab at the path beside the library. The public fixture has been damaged for a week.,public_property,synthetic_demo,en,public_property_scenario_13
+Please inspect the area at the path beside the library: a cracked pavement slab is present. The public fixture has been damaged for a week.,public_property,synthetic_demo,en,public_property_scenario_13
+There is a cracked pavement slab at the path beside the library. The public fixture has been damaged for a week.,public_property,synthetic_demo,en,public_property_scenario_13
+The problem at the path beside the library is a cracked pavement slab. The public fixture has been damaged for a week.,public_property,synthetic_demo,en,public_property_scenario_13
+We found a cracked pavement slab at the path beside the library. The public fixture has been damaged for a week.,public_property,synthetic_demo,en,public_property_scenario_13
+A cracked pavement slab was observed at the path beside the library. The public fixture has been damaged for a week.,public_property,synthetic_demo,en,public_property_scenario_13
+A resident reported a damaged signpost at the lane behind the market. A sharp edge is exposed along the damaged part.,public_property,synthetic_demo,en,public_property_scenario_14
+Please inspect the area at the lane behind the market: a damaged signpost is present. A sharp edge is exposed along the damaged part.,public_property,synthetic_demo,en,public_property_scenario_14
+There is a damaged signpost at the lane behind the market. A sharp edge is exposed along the damaged part.,public_property,synthetic_demo,en,public_property_scenario_14
+The problem at the lane behind the market is a damaged signpost. A sharp edge is exposed along the damaged part.,public_property,synthetic_demo,en,public_property_scenario_14
+We found a damaged signpost at the lane behind the market. A sharp edge is exposed along the damaged part.,public_property,synthetic_demo,en,public_property_scenario_14
+A damaged signpost was observed at the lane behind the market. A sharp edge is exposed along the damaged part.,public_property,synthetic_demo,en,public_property_scenario_14
+A resident reported a broken handrail on the public steps at the north campus entrance. The structure is unstable and needs inspection.,public_property,synthetic_demo,en,public_property_scenario_15
+Please inspect the area at the north campus entrance: a broken handrail on the public steps is present. The structure is unstable and needs inspection.,public_property,synthetic_demo,en,public_property_scenario_15
+There is a broken handrail on the public steps at the north campus entrance. The structure is unstable and needs inspection.,public_property,synthetic_demo,en,public_property_scenario_15
+The problem at the north campus entrance is a broken handrail on the public steps. The structure is unstable and needs inspection.,public_property,synthetic_demo,en,public_property_scenario_15
+We found a broken handrail on the public steps at the north campus entrance. The structure is unstable and needs inspection.,public_property,synthetic_demo,en,public_property_scenario_15
+A broken handrail on the public steps was observed at the north campus entrance. The structure is unstable and needs inspection.,public_property,synthetic_demo,en,public_property_scenario_15
+A resident reported a damaged public bench at the lane behind the market. The defect is obstructing the accessible route.,public_property,synthetic_demo,en,public_property_scenario_16
+Please inspect the area at the lane behind the market: a damaged public bench is present. The defect is obstructing the accessible route.,public_property,synthetic_demo,en,public_property_scenario_16
+There is a damaged public bench at the lane behind the market. The defect is obstructing the accessible route.,public_property,synthetic_demo,en,public_property_scenario_16
+The problem at the lane behind the market is a damaged public bench. The defect is obstructing the accessible route.,public_property,synthetic_demo,en,public_property_scenario_16
+We found a damaged public bench at the lane behind the market. The defect is obstructing the accessible route.,public_property,synthetic_demo,en,public_property_scenario_16
+A damaged public bench was observed at the lane behind the market. The defect is obstructing the accessible route.,public_property,synthetic_demo,en,public_property_scenario_16
+A resident reported a broken section of boundary railing at the north campus entrance. A sharp edge is exposed along the damaged part.,public_property,synthetic_demo,en,public_property_scenario_17
+Please inspect the area at the north campus entrance: a broken section of boundary railing is present. A sharp edge is exposed along the damaged part.,public_property,synthetic_demo,en,public_property_scenario_17
+There is a broken section of boundary railing at the north campus entrance. A sharp edge is exposed along the damaged part.,public_property,synthetic_demo,en,public_property_scenario_17
+The problem at the north campus entrance is a broken section of boundary railing. A sharp edge is exposed along the damaged part.,public_property,synthetic_demo,en,public_property_scenario_17
+We found a broken section of boundary railing at the north campus entrance. A sharp edge is exposed along the damaged part.,public_property,synthetic_demo,en,public_property_scenario_17
+A broken section of boundary railing was observed at the north campus entrance. A sharp edge is exposed along the damaged part.,public_property,synthetic_demo,en,public_property_scenario_17
+A resident reported a cracked pavement slab at the courtyard near the bus stop. The structure is unstable and needs inspection.,public_property,synthetic_demo,en,public_property_scenario_18
+Please inspect the area at the courtyard near the bus stop: a cracked pavement slab is present. The structure is unstable and needs inspection.,public_property,synthetic_demo,en,public_property_scenario_18
+There is a cracked pavement slab at the courtyard near the bus stop. The structure is unstable and needs inspection.,public_property,synthetic_demo,en,public_property_scenario_18
+The problem at the courtyard near the bus stop is a cracked pavement slab. The structure is unstable and needs inspection.,public_property,synthetic_demo,en,public_property_scenario_18
+We found a cracked pavement slab at the courtyard near the bus stop. The structure is unstable and needs inspection.,public_property,synthetic_demo,en,public_property_scenario_18
+A cracked pavement slab was observed at the courtyard near the bus stop. The structure is unstable and needs inspection.,public_property,synthetic_demo,en,public_property_scenario_18
+A resident reported a damaged signpost at the walkway outside the community hall. The defect is obstructing the accessible route.,public_property,synthetic_demo,en,public_property_scenario_19
+Please inspect the area at the walkway outside the community hall: a damaged signpost is present. The defect is obstructing the accessible route.,public_property,synthetic_demo,en,public_property_scenario_19
+There is a damaged signpost at the walkway outside the community hall. The defect is obstructing the accessible route.,public_property,synthetic_demo,en,public_property_scenario_19
+The problem at the walkway outside the community hall is a damaged signpost. The defect is obstructing the accessible route.,public_property,synthetic_demo,en,public_property_scenario_19
+We found a damaged signpost at the walkway outside the community hall. The defect is obstructing the accessible route.,public_property,synthetic_demo,en,public_property_scenario_19
+A damaged signpost was observed at the walkway outside the community hall. The defect is obstructing the accessible route.,public_property,synthetic_demo,en,public_property_scenario_19
+A resident reported a broken handrail on the public steps at the path beside the library. People cannot use the facility as intended.,public_property,synthetic_demo,en,public_property_scenario_20
+Please inspect the area at the path beside the library: a broken handrail on the public steps is present. People cannot use the facility as intended.,public_property,synthetic_demo,en,public_property_scenario_20
+There is a broken handrail on the public steps at the path beside the library. People cannot use the facility as intended.,public_property,synthetic_demo,en,public_property_scenario_20
+The problem at the path beside the library is a broken handrail on the public steps. People cannot use the facility as intended.,public_property,synthetic_demo,en,public_property_scenario_20
+We found a broken handrail on the public steps at the path beside the library. People cannot use the facility as intended.,public_property,synthetic_demo,en,public_property_scenario_20
+A broken handrail on the public steps was observed at the path beside the library. People cannot use the facility as intended.,public_property,synthetic_demo,en,public_property_scenario_20
+A resident reported an abandoned bicycle blocking the walkway at the north campus entrance. Pedestrians need to step into the road to pass.,other,synthetic_demo,en,other_scenario_01
+Please inspect the area at the north campus entrance: an abandoned bicycle blocking the walkway is present. Pedestrians need to step into the road to pass.,other,synthetic_demo,en,other_scenario_01
+There is an abandoned bicycle blocking the walkway at the north campus entrance. Pedestrians need to step into the road to pass.,other,synthetic_demo,en,other_scenario_01
+The problem at the north campus entrance is an abandoned bicycle blocking the walkway. Pedestrians need to step into the road to pass.,other,synthetic_demo,en,other_scenario_01
+We found an abandoned bicycle blocking the walkway at the north campus entrance. Pedestrians need to step into the road to pass.,other,synthetic_demo,en,other_scenario_01
+An abandoned bicycle blocking the walkway was observed at the north campus entrance. Pedestrians need to step into the road to pass.,other,synthetic_demo,en,other_scenario_01
+A resident reported a fallen tree branch on the shared path at the courtyard near the bus stop. The concern does not fit the other listed categories.,other,synthetic_demo,en,other_scenario_02
+Please inspect the area at the courtyard near the bus stop: a fallen tree branch on the shared path is present. The concern does not fit the other listed categories.,other,synthetic_demo,en,other_scenario_02
+There is a fallen tree branch on the shared path at the courtyard near the bus stop. The concern does not fit the other listed categories.,other,synthetic_demo,en,other_scenario_02
+The problem at the courtyard near the bus stop is a fallen tree branch on the shared path. The concern does not fit the other listed categories.,other,synthetic_demo,en,other_scenario_02
+We found a fallen tree branch on the shared path at the courtyard near the bus stop. The concern does not fit the other listed categories.,other,synthetic_demo,en,other_scenario_02
+A fallen tree branch on the shared path was observed at the courtyard near the bus stop. The concern does not fit the other listed categories.,other,synthetic_demo,en,other_scenario_02
+A resident reported a noisy construction activity outside permitted hours at the walkway outside the community hall. The obstruction has remained there since yesterday.,other,synthetic_demo,en,other_scenario_03
+Please inspect the area at the walkway outside the community hall: a noisy construction activity outside permitted hours is present. The obstruction has remained there since yesterday.,other,synthetic_demo,en,other_scenario_03
+There is a noisy construction activity outside permitted hours at the walkway outside the community hall. The obstruction has remained there since yesterday.,other,synthetic_demo,en,other_scenario_03
+The problem at the walkway outside the community hall is a noisy construction activity outside permitted hours. The obstruction has remained there since yesterday.,other,synthetic_demo,en,other_scenario_03
+We found a noisy construction activity outside permitted hours at the walkway outside the community hall. The obstruction has remained there since yesterday.,other,synthetic_demo,en,other_scenario_03
+A noisy construction activity outside permitted hours was observed at the walkway outside the community hall. The obstruction has remained there since yesterday.,other,synthetic_demo,en,other_scenario_03
+A resident reported a damaged public notice board at the path beside the library. Please have a reviewer assess the reported issue.,other,synthetic_demo,en,other_scenario_04
+Please inspect the area at the path beside the library: a damaged public notice board is present. Please have a reviewer assess the reported issue.,other,synthetic_demo,en,other_scenario_04
+There is a damaged public notice board at the path beside the library. Please have a reviewer assess the reported issue.,other,synthetic_demo,en,other_scenario_04
+The problem at the path beside the library is a damaged public notice board. Please have a reviewer assess the reported issue.,other,synthetic_demo,en,other_scenario_04
+We found a damaged public notice board at the path beside the library. Please have a reviewer assess the reported issue.,other,synthetic_demo,en,other_scenario_04
+A damaged public notice board was observed at the path beside the library. Please have a reviewer assess the reported issue.,other,synthetic_demo,en,other_scenario_04
+A resident reported an animal hazard on the pedestrian route at the lane behind the market. The concern does not fit the other listed categories.,other,synthetic_demo,en,other_scenario_05
+Please inspect the area at the lane behind the market: an animal hazard on the pedestrian route is present. The concern does not fit the other listed categories.,other,synthetic_demo,en,other_scenario_05
+There is an animal hazard on the pedestrian route at the lane behind the market. The concern does not fit the other listed categories.,other,synthetic_demo,en,other_scenario_05
+The problem at the lane behind the market is an animal hazard on the pedestrian route. The concern does not fit the other listed categories.,other,synthetic_demo,en,other_scenario_05
+We found an animal hazard on the pedestrian route at the lane behind the market. The concern does not fit the other listed categories.,other,synthetic_demo,en,other_scenario_05
+An animal hazard on the pedestrian route was observed at the lane behind the market. The concern does not fit the other listed categories.,other,synthetic_demo,en,other_scenario_05
+A resident reported an abandoned bicycle blocking the walkway at the path beside the library. The obstruction has remained there since yesterday.,other,synthetic_demo,en,other_scenario_06
+Please inspect the area at the path beside the library: an abandoned bicycle blocking the walkway is present. The obstruction has remained there since yesterday.,other,synthetic_demo,en,other_scenario_06
+There is an abandoned bicycle blocking the walkway at the path beside the library. The obstruction has remained there since yesterday.,other,synthetic_demo,en,other_scenario_06
+The problem at the path beside the library is an abandoned bicycle blocking the walkway. The obstruction has remained there since yesterday.,other,synthetic_demo,en,other_scenario_06
+We found an abandoned bicycle blocking the walkway at the path beside the library. The obstruction has remained there since yesterday.,other,synthetic_demo,en,other_scenario_06
+An abandoned bicycle blocking the walkway was observed at the path beside the library. The obstruction has remained there since yesterday.,other,synthetic_demo,en,other_scenario_06
+A resident reported a fallen tree branch on the shared path at the lane behind the market. Please have a reviewer assess the reported issue.,other,synthetic_demo,en,other_scenario_07
+Please inspect the area at the lane behind the market: a fallen tree branch on the shared path is present. Please have a reviewer assess the reported issue.,other,synthetic_demo,en,other_scenario_07
+There is a fallen tree branch on the shared path at the lane behind the market. Please have a reviewer assess the reported issue.,other,synthetic_demo,en,other_scenario_07
+The problem at the lane behind the market is a fallen tree branch on the shared path. Please have a reviewer assess the reported issue.,other,synthetic_demo,en,other_scenario_07
+We found a fallen tree branch on the shared path at the lane behind the market. Please have a reviewer assess the reported issue.,other,synthetic_demo,en,other_scenario_07
+A fallen tree branch on the shared path was observed at the lane behind the market. Please have a reviewer assess the reported issue.,other,synthetic_demo,en,other_scenario_07
+A resident reported a noisy construction activity outside permitted hours at the north campus entrance. People nearby are unable to use the space normally.,other,synthetic_demo,en,other_scenario_08
+Please inspect the area at the north campus entrance: a noisy construction activity outside permitted hours is present. People nearby are unable to use the space normally.,other,synthetic_demo,en,other_scenario_08
+There is a noisy construction activity outside permitted hours at the north campus entrance. People nearby are unable to use the space normally.,other,synthetic_demo,en,other_scenario_08
+The problem at the north campus entrance is a noisy construction activity outside permitted hours. People nearby are unable to use the space normally.,other,synthetic_demo,en,other_scenario_08
+We found a noisy construction activity outside permitted hours at the north campus entrance. People nearby are unable to use the space normally.,other,synthetic_demo,en,other_scenario_08
+A noisy construction activity outside permitted hours was observed at the north campus entrance. People nearby are unable to use the space normally.,other,synthetic_demo,en,other_scenario_08
+A resident reported a damaged public notice board at the courtyard near the bus stop. The obstruction has remained there since yesterday.,other,synthetic_demo,en,other_scenario_09
+Please inspect the area at the courtyard near the bus stop: a damaged public notice board is present. The obstruction has remained there since yesterday.,other,synthetic_demo,en,other_scenario_09
+There is a damaged public notice board at the courtyard near the bus stop. The obstruction has remained there since yesterday.,other,synthetic_demo,en,other_scenario_09
+The problem at the courtyard near the bus stop is a damaged public notice board. The obstruction has remained there since yesterday.,other,synthetic_demo,en,other_scenario_09
+We found a damaged public notice board at the courtyard near the bus stop. The obstruction has remained there since yesterday.,other,synthetic_demo,en,other_scenario_09
+A damaged public notice board was observed at the courtyard near the bus stop. The obstruction has remained there since yesterday.,other,synthetic_demo,en,other_scenario_09
+A resident reported an animal hazard on the pedestrian route at the walkway outside the community hall. Please have a reviewer assess the reported issue.,other,synthetic_demo,en,other_scenario_10
+Please inspect the area at the walkway outside the community hall: an animal hazard on the pedestrian route is present. Please have a reviewer assess the reported issue.,other,synthetic_demo,en,other_scenario_10
+There is an animal hazard on the pedestrian route at the walkway outside the community hall. Please have a reviewer assess the reported issue.,other,synthetic_demo,en,other_scenario_10
+The problem at the walkway outside the community hall is an animal hazard on the pedestrian route. Please have a reviewer assess the reported issue.,other,synthetic_demo,en,other_scenario_10
+We found an animal hazard on the pedestrian route at the walkway outside the community hall. Please have a reviewer assess the reported issue.,other,synthetic_demo,en,other_scenario_10
+An animal hazard on the pedestrian route was observed at the walkway outside the community hall. Please have a reviewer assess the reported issue.,other,synthetic_demo,en,other_scenario_10
+A resident reported an abandoned bicycle blocking the walkway at the courtyard near the bus stop. People nearby are unable to use the space normally.,other,synthetic_demo,en,other_scenario_11
+Please inspect the area at the courtyard near the bus stop: an abandoned bicycle blocking the walkway is present. People nearby are unable to use the space normally.,other,synthetic_demo,en,other_scenario_11
+There is an abandoned bicycle blocking the walkway at the courtyard near the bus stop. People nearby are unable to use the space normally.,other,synthetic_demo,en,other_scenario_11
+The problem at the courtyard near the bus stop is an abandoned bicycle blocking the walkway. People nearby are unable to use the space normally.,other,synthetic_demo,en,other_scenario_11
+We found an abandoned bicycle blocking the walkway at the courtyard near the bus stop. People nearby are unable to use the space normally.,other,synthetic_demo,en,other_scenario_11
+An abandoned bicycle blocking the walkway was observed at the courtyard near the bus stop. People nearby are unable to use the space normally.,other,synthetic_demo,en,other_scenario_11
+A resident reported a fallen tree branch on the shared path at the walkway outside the community hall. Pedestrians need to step into the road to pass.,other,synthetic_demo,en,other_scenario_12
+Please inspect the area at the walkway outside the community hall: a fallen tree branch on the shared path is present. Pedestrians need to step into the road to pass.,other,synthetic_demo,en,other_scenario_12
+There is a fallen tree branch on the shared path at the walkway outside the community hall. Pedestrians need to step into the road to pass.,other,synthetic_demo,en,other_scenario_12
+The problem at the walkway outside the community hall is a fallen tree branch on the shared path. Pedestrians need to step into the road to pass.,other,synthetic_demo,en,other_scenario_12
+We found a fallen tree branch on the shared path at the walkway outside the community hall. Pedestrians need to step into the road to pass.,other,synthetic_demo,en,other_scenario_12
+A fallen tree branch on the shared path was observed at the walkway outside the community hall. Pedestrians need to step into the road to pass.,other,synthetic_demo,en,other_scenario_12
+A resident reported a noisy construction activity outside permitted hours at the path beside the library. Please have a reviewer assess the reported issue.,other,synthetic_demo,en,other_scenario_13
+Please inspect the area at the path beside the library: a noisy construction activity outside permitted hours is present. Please have a reviewer assess the reported issue.,other,synthetic_demo,en,other_scenario_13
+There is a noisy construction activity outside permitted hours at the path beside the library. Please have a reviewer assess the reported issue.,other,synthetic_demo,en,other_scenario_13
+The problem at the path beside the library is a noisy construction activity outside permitted hours. Please have a reviewer assess the reported issue.,other,synthetic_demo,en,other_scenario_13
+We found a noisy construction activity outside permitted hours at the path beside the library. Please have a reviewer assess the reported issue.,other,synthetic_demo,en,other_scenario_13
+A noisy construction activity outside permitted hours was observed at the path beside the library. Please have a reviewer assess the reported issue.,other,synthetic_demo,en,other_scenario_13
+A resident reported a damaged public notice board at the lane behind the market. People nearby are unable to use the space normally.,other,synthetic_demo,en,other_scenario_14
+Please inspect the area at the lane behind the market: a damaged public notice board is present. People nearby are unable to use the space normally.,other,synthetic_demo,en,other_scenario_14
+There is a damaged public notice board at the lane behind the market. People nearby are unable to use the space normally.,other,synthetic_demo,en,other_scenario_14
+The problem at the lane behind the market is a damaged public notice board. People nearby are unable to use the space normally.,other,synthetic_demo,en,other_scenario_14
+We found a damaged public notice board at the lane behind the market. People nearby are unable to use the space normally.,other,synthetic_demo,en,other_scenario_14
+A damaged public notice board was observed at the lane behind the market. People nearby are unable to use the space normally.,other,synthetic_demo,en,other_scenario_14
+A resident reported an animal hazard on the pedestrian route at the north campus entrance. Pedestrians need to step into the road to pass.,other,synthetic_demo,en,other_scenario_15
+Please inspect the area at the north campus entrance: an animal hazard on the pedestrian route is present. Pedestrians need to step into the road to pass.,other,synthetic_demo,en,other_scenario_15
+There is an animal hazard on the pedestrian route at the north campus entrance. Pedestrians need to step into the road to pass.,other,synthetic_demo,en,other_scenario_15
+The problem at the north campus entrance is an animal hazard on the pedestrian route. Pedestrians need to step into the road to pass.,other,synthetic_demo,en,other_scenario_15
+We found an animal hazard on the pedestrian route at the north campus entrance. Pedestrians need to step into the road to pass.,other,synthetic_demo,en,other_scenario_15
+An animal hazard on the pedestrian route was observed at the north campus entrance. Pedestrians need to step into the road to pass.,other,synthetic_demo,en,other_scenario_15
+A resident reported an abandoned bicycle blocking the walkway at the lane behind the market. The concern does not fit the other listed categories.,other,synthetic_demo,en,other_scenario_16
+Please inspect the area at the lane behind the market: an abandoned bicycle blocking the walkway is present. The concern does not fit the other listed categories.,other,synthetic_demo,en,other_scenario_16
+There is an abandoned bicycle blocking the walkway at the lane behind the market. The concern does not fit the other listed categories.,other,synthetic_demo,en,other_scenario_16
+The problem at the lane behind the market is an abandoned bicycle blocking the walkway. The concern does not fit the other listed categories.,other,synthetic_demo,en,other_scenario_16
+We found an abandoned bicycle blocking the walkway at the lane behind the market. The concern does not fit the other listed categories.,other,synthetic_demo,en,other_scenario_16
+An abandoned bicycle blocking the walkway was observed at the lane behind the market. The concern does not fit the other listed categories.,other,synthetic_demo,en,other_scenario_16
+A resident reported a fallen tree branch on the shared path at the north campus entrance. People nearby are unable to use the space normally.,other,synthetic_demo,en,other_scenario_17
+Please inspect the area at the north campus entrance: a fallen tree branch on the shared path is present. People nearby are unable to use the space normally.,other,synthetic_demo,en,other_scenario_17
+There is a fallen tree branch on the shared path at the north campus entrance. People nearby are unable to use the space normally.,other,synthetic_demo,en,other_scenario_17
+The problem at the north campus entrance is a fallen tree branch on the shared path. People nearby are unable to use the space normally.,other,synthetic_demo,en,other_scenario_17
+We found a fallen tree branch on the shared path at the north campus entrance. People nearby are unable to use the space normally.,other,synthetic_demo,en,other_scenario_17
+A fallen tree branch on the shared path was observed at the north campus entrance. People nearby are unable to use the space normally.,other,synthetic_demo,en,other_scenario_17
+A resident reported a noisy construction activity outside permitted hours at the courtyard near the bus stop. Pedestrians need to step into the road to pass.,other,synthetic_demo,en,other_scenario_18
+Please inspect the area at the courtyard near the bus stop: a noisy construction activity outside permitted hours is present. Pedestrians need to step into the road to pass.,other,synthetic_demo,en,other_scenario_18
+There is a noisy construction activity outside permitted hours at the courtyard near the bus stop. Pedestrians need to step into the road to pass.,other,synthetic_demo,en,other_scenario_18
+The problem at the courtyard near the bus stop is a noisy construction activity outside permitted hours. Pedestrians need to step into the road to pass.,other,synthetic_demo,en,other_scenario_18
+We found a noisy construction activity outside permitted hours at the courtyard near the bus stop. Pedestrians need to step into the road to pass.,other,synthetic_demo,en,other_scenario_18
+A noisy construction activity outside permitted hours was observed at the courtyard near the bus stop. Pedestrians need to step into the road to pass.,other,synthetic_demo,en,other_scenario_18
+A resident reported a damaged public notice board at the walkway outside the community hall. The concern does not fit the other listed categories.,other,synthetic_demo,en,other_scenario_19
+Please inspect the area at the walkway outside the community hall: a damaged public notice board is present. The concern does not fit the other listed categories.,other,synthetic_demo,en,other_scenario_19
+There is a damaged public notice board at the walkway outside the community hall. The concern does not fit the other listed categories.,other,synthetic_demo,en,other_scenario_19
+The problem at the walkway outside the community hall is a damaged public notice board. The concern does not fit the other listed categories.,other,synthetic_demo,en,other_scenario_19
+We found a damaged public notice board at the walkway outside the community hall. The concern does not fit the other listed categories.,other,synthetic_demo,en,other_scenario_19
+A damaged public notice board was observed at the walkway outside the community hall. The concern does not fit the other listed categories.,other,synthetic_demo,en,other_scenario_19
+A resident reported an animal hazard on the pedestrian route at the path beside the library. The obstruction has remained there since yesterday.,other,synthetic_demo,en,other_scenario_20
+Please inspect the area at the path beside the library: an animal hazard on the pedestrian route is present. The obstruction has remained there since yesterday.,other,synthetic_demo,en,other_scenario_20
+There is an animal hazard on the pedestrian route at the path beside the library. The obstruction has remained there since yesterday.,other,synthetic_demo,en,other_scenario_20
+The problem at the path beside the library is an animal hazard on the pedestrian route. The obstruction has remained there since yesterday.,other,synthetic_demo,en,other_scenario_20
+We found an animal hazard on the pedestrian route at the path beside the library. The obstruction has remained there since yesterday.,other,synthetic_demo,en,other_scenario_20
+An animal hazard on the pedestrian route was observed at the path beside the library. The obstruction has remained there since yesterday.,other,synthetic_demo,en,other_scenario_20

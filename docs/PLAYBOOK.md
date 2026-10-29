@@ -205,8 +205,30 @@ ADMIN_PASSWORD=replace_with_a_local_password
 - [x] **Phase 4 — Complete non-AI report workflow**
 - [x] **Phase 5 — Photo upload and privacy**
 - [x] **Phase 6 — Text category model**
-- [ ] **Phase 7 — Nearby duplicate suggestions**
-- [ ] **Phase 8 — Admin/reviewer workflow and dashboard**
+- [x] **Phase 7 — Nearby duplicate suggestions**
+- [x] **Phase 8 — Admin/reviewer workflow and dashboard**
 - [ ] **Phase 9 — Frontend usability and accessibility**
 - [ ] **Phase 10 — Security, robustness, and quality gates**
 - [ ] **Phase 11 — Documentation and presentation**
+
+
+### Phase 6 implementation notes
+
+- The category classifier is a TF-IDF/Logistic Regression pipeline. CI uses the generated synthetic corpus; an optional local preparation path imports the I Change My City Bengaluru complaint dataset with explicit category mapping and best-effort text redaction. Raw and prepared OpenCity files and the model artifact are ignored by Git.
+- On the prepared 2019–2022 Bengaluru dataset, the fixed seed-42 stratified test split measured macro-F1 0.697, accuracy 0.849, 69.1% coverage at threshold 0.55, and macro-F1 0.800 among returned suggestions. This is a historical single-city result against mapped source labels, not a claim of current or cross-city performance.
+- Residents may accept or override a suggestion. The Express API requests a fresh server-side suggestion on submission and supports manual reporting when the model is unavailable or abstains.
+- See [DATASET_CARD.md](./DATASET_CARD.md) and [MODEL_CARD.md](./MODEL_CARD.md) for provenance, evaluation, and limitations.
+
+### Phase 7 implementation notes
+
+- The optional authenticated duplicate check requires the citizen to capture GPS coordinates; report submission itself remains available without location or when duplicate scoring is offline.
+- Express searches at most 50 non-demo reports in `submitted`, `under_review`, or `in_progress` status within 500 m. The ML service ranks candidate descriptions by text similarity, and Express returns at most five positive-similarity suggestions.
+- The public preview is restricted to category, status, and a coarse distance band. It does not expose another report's title, description, photo, report number, owner, or exact coordinates. A suggestion never merges, rejects, or hides a report.
+- Duplicate matches have not been independently labelled or evaluated. Treat these as unverified suggestions and do not claim measured duplicate-detection accuracy.
+
+### Phase 8 implementation notes
+
+- The admin-only reviewer queue defaults to active, non-demo reports and supports filtering by status, category, and reviewer-assigned priority. It reports actual per-status counts with demo data excluded.
+- The API enforces the allowed status transition graph and requires a 10–500 character note for resolution and rejection. Each accepted transition is appended to immutable status history.
+- Reviewers can set low/normal/high priority manually. Changes are recorded separately with the previous/new priority, reviewer, timestamp, and optional note; the AI does not assign priority.
+- The dashboard links to full report details for authorized review. Resolution and rejection are represented as reviewer-provided records, not independently verified ground truth.

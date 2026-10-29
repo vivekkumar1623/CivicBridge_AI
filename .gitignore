@@ -23,6 +23,10 @@ __pycache__/
 services/ml/models/*.joblib
 services/ml/models/*.pkl
 
+# Local copy of the external complaint dataset
+services/ml/data/raw/
+services/ml/data/processed/
+
 # Coverage
 coverage/
 .nyc_output/

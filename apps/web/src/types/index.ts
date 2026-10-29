@@ -6,16 +6,32 @@ export type Category =
   | 'public_property'
   | 'other';
 
-export type Status =
-  | 'submitted'
-  | 'under_review'
-  | 'in_progress'
-  | 'resolved'
-  | 'rejected';
+export type Status = 'submitted' | 'under_review' | 'in_progress' | 'resolved' | 'rejected';
 
 export type Priority = 'low' | 'normal' | 'high';
 
 export type Role = 'citizen' | 'admin';
+
+export interface CategorySuggestion {
+  suggestedCategory: Category | null;
+  confidence: number;
+  modelVersion: string | null;
+  needsHumanReview: boolean;
+  suggestionsUnavailable: boolean;
+  message?: string;
+}
+
+export interface DuplicateSuggestion {
+  category: Category;
+  status: Status;
+  distanceBand: 'within_250m' | '250m_to_500m';
+}
+
+export interface DuplicateSuggestionsResponse {
+  matches: DuplicateSuggestion[];
+  suggestionsUnavailable: boolean;
+  message?: string;
+}
 
 export interface User {
   id: string;
@@ -37,6 +53,14 @@ export interface IStatusHistory {
   changedAt: string;
 }
 
+export interface IPriorityHistory {
+  fromPriority: Priority;
+  toPriority: Priority;
+  changedBy: string | { _id: string; name: string };
+  note?: string;
+  changedAt: string;
+}
+
 export interface Report {
   _id: string;
   reportNumber: string;
@@ -44,6 +68,10 @@ export interface Report {
   title: string;
   description: string;
   category: Category;
+  aiSuggestedCategory: Category | null;
+  aiConfidence: number | null;
+  aiModelVersion: string | null;
+  categoryDecision: 'accepted_suggestion' | 'overrode_suggestion' | 'manual_fallback';
   status: Status;
   priority: Priority;
   location?: ILocation;
@@ -52,6 +80,7 @@ export interface Report {
   resolutionNote?: string;
   rejectionReason?: string;
   statusHistory: IStatusHistory[];
+  priorityHistory?: IPriorityHistory[];
   isDemoData: boolean;
   createdAt: string;
   updatedAt: string;

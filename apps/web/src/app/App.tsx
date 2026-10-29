@@ -9,6 +9,7 @@ import { NewReportPage } from '../pages/NewReportPage';
 import { MyReportsPage } from '../pages/MyReportsPage';
 import { ReportDetailsPage } from '../pages/ReportDetailsPage';
 import { NotFoundPage } from '../pages/NotFoundPage';
+import { AdminDashboardPage } from '../pages/AdminDashboardPage';
 
 export function App() {
   return (
@@ -26,6 +27,7 @@ export function App() {
               <Route path="/reports/new" element={<NewReportPage />} />
               <Route path="/reports/mine" element={<MyReportsPage />} />
               <Route path="/reports/:id" element={<ReportDetailsPage />} />
+              <Route path="/admin" element={<AdminDashboardPage />} />
               <Route path="*" element={<NotFoundPage />} />
             </Routes>
           </main>

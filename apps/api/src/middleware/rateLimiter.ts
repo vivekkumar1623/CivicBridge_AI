@@ -16,3 +16,14 @@ export const authLimiter = rateLimit({
     error: 'Too many authentication attempts, please try again after 15 minutes',
   },
 });
+
+export const aiLimiter = rateLimit({
+  windowMs: 15 * 60 * 1000,
+  max: 30,
+  standardHeaders: true,
+  legacyHeaders: false,
+  skip: () => config.nodeEnv === 'test',
+  message: {
+    error: 'Too many AI suggestion requests, please try again later',
+  },
+});

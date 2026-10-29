@@ -53,6 +53,15 @@ export const Navbar: React.FC = () => {
                   My Reports
                 </Link>
 
+                {user.role === 'admin' && (
+                  <Link
+                    to="/admin"
+                    className="px-3 py-2 rounded-lg text-sm font-medium text-slate-700 hover:text-slate-900 hover:bg-slate-100 transition"
+                  >
+                    Reviewer Queue
+                  </Link>
+                )}
+
                 <div className="h-5 w-px bg-slate-200 mx-1 hidden sm:block" />
 
                 <div className="flex items-center gap-3">

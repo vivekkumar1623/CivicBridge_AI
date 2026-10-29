@@ -9,6 +9,7 @@ import {
   photoStorage,
   UnsupportedPhotoError,
 } from '../services/photoStorage.js';
+import { getCategorySuggestion } from '../services/categorySuggestion.js';
 
 /**
  * POST /api/reports
@@ -59,6 +60,13 @@ export async function createReport(req: Request, res: Response): Promise<void> {
       photoKey = await photoStorage.save(req.file.buffer, req.file.mimetype);
     }
 
+    const suggestion = await getCategorySuggestion(description);
+    const categoryDecision = suggestion.suggestedCategory
+      ? suggestion.suggestedCategory === category
+        ? 'accepted_suggestion'
+        : 'overrode_suggestion'
+      : 'manual_fallback';
+
     // Server authoritatively sets createdBy, status, priority, and first statusHistory
     const initialStatusHistory = {
       fromStatus: null,
@@ -74,6 +82,10 @@ export async function createReport(req: Request, res: Response): Promise<void> {
       title,
       description,
       category,
+      aiSuggestedCategory: suggestion.suggestedCategory,
+      aiConfidence: suggestion.suggestionsUnavailable ? null : suggestion.confidence,
+      aiModelVersion: suggestion.modelVersion,
+      categoryDecision,
       status: 'submitted',
       priority: 'normal',
       location,

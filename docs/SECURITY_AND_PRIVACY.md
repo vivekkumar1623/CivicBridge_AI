@@ -24,3 +24,11 @@
 - Keep `.env` and private uploads out of Git.
 - Do not log passwords, tokens, image bytes, or complete private request bodies.
 - The prototype does not send reports to a municipal authority.
+
+
+## Nearby duplicate suggestions (Phase 7)
+
+- The optional duplicate check requires the reporter to provide GPS coordinates. Exact coordinates are used by Express for geospatial search and are not included in the public suggestion response.
+- Candidate text is sent from Express to the private, stateless ML service for similarity scoring. The ML service does not access MongoDB or persist request data.
+- Other reporters' titles, descriptions, photos, report IDs/numbers, identities, and exact coordinates are not shown. Results contain only category, status, and a coarse distance band.
+- Results are unverified suggestions only. The reporter remains in control; no existing report is automatically merged, rejected, or hidden.

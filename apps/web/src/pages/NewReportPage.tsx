@@ -1,8 +1,15 @@
-import React, { useState } from 'react';
+import React, { useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useAuth } from '../features/auth/AuthContext';
 import { api } from '../lib/api';
-import { CATEGORY_LABELS, Category, Report } from '../types';
+import {
+  CATEGORY_LABELS,
+  Category,
+  CategorySuggestion,
+  DuplicateSuggestionsResponse,
+  Report,
+  STATUS_LABELS,
+} from '../types';
 
 export const NewReportPage: React.FC = () => {
   const { user } = useAuth();
@@ -14,12 +21,26 @@ export const NewReportPage: React.FC = () => {
   const [coords, setCoords] = useState<{ lat: number; lng: number } | null>(null);
   const [geoStatus, setGeoStatus] = useState<string | null>(null);
   const [selectedFile, setSelectedFile] = useState<File | null>(null);
+  const [categorySuggestion, setCategorySuggestion] = useState<CategorySuggestion | null>(null);
+  const [isSuggestingCategory, setIsSuggestingCategory] = useState(false);
+  const [categorySuggestionMessage, setCategorySuggestionMessage] = useState<string | null>(null);
+  const [duplicateSuggestions, setDuplicateSuggestions] =
+    useState<DuplicateSuggestionsResponse | null>(null);
+  const [isCheckingDuplicates, setIsCheckingDuplicates] = useState(false);
+  const duplicateRequestId = useRef(0);
 
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [submittedReport, setSubmittedReport] = useState<Report | null>(null);
 
   const categories = Object.entries(CATEGORY_LABELS) as [Category, string][];
+  const suggestedCategory = categorySuggestion?.suggestedCategory;
+
+  const clearDuplicateSuggestions = () => {
+    duplicateRequestId.current += 1;
+    setDuplicateSuggestions(null);
+    setIsCheckingDuplicates(false);
+  };
 
   // Geolocation capture
   const handleGetLocation = () => {
@@ -31,6 +52,7 @@ export const NewReportPage: React.FC = () => {
     setGeoStatus('Locating your position...');
     navigator.geolocation.getCurrentPosition(
       (position) => {
+        clearDuplicateSuggestions();
         setCoords({
           lat: position.coords.latitude,
           lng: position.coords.longitude,
@@ -49,8 +71,75 @@ export const NewReportPage: React.FC = () => {
   };
 
   const handleClearLocation = () => {
+    clearDuplicateSuggestions();
     setCoords(null);
     setGeoStatus(null);
+  };
+
+  const handleCheckDuplicates = async () => {
+    if (!coords || description.trim().length < 20) {
+      return;
+    }
+
+    const requestId = ++duplicateRequestId.current;
+    setIsCheckingDuplicates(true);
+    setDuplicateSuggestions(null);
+    try {
+      const response = await api.post<DuplicateSuggestionsResponse>(
+        '/reports/duplicate-suggestions',
+        {
+          description: description.trim(),
+          category,
+          latitude: coords.lat,
+          longitude: coords.lng,
+        },
+      );
+      if (requestId === duplicateRequestId.current) {
+        setDuplicateSuggestions(response.data);
+      }
+    } catch {
+      if (requestId === duplicateRequestId.current) {
+        setDuplicateSuggestions({
+          matches: [],
+          suggestionsUnavailable: true,
+          message: 'Nearby duplicate checking is unavailable. You can still submit your report.',
+        });
+      }
+    } finally {
+      if (requestId === duplicateRequestId.current) {
+        setIsCheckingDuplicates(false);
+      }
+    }
+  };
+
+  const handleSuggestCategory = async () => {
+    if (description.trim().length < 20) {
+      setCategorySuggestionMessage('Enter at least 20 characters before requesting a suggestion.');
+      return;
+    }
+
+    setIsSuggestingCategory(true);
+    setCategorySuggestion(null);
+    setCategorySuggestionMessage(null);
+    try {
+      const response = await api.post<CategorySuggestion>('/ai/category-suggestion', {
+        description: description.trim(),
+      });
+      setCategorySuggestion(response.data);
+      if (response.data.suggestionsUnavailable) {
+        setCategorySuggestionMessage(
+          response.data.message ?? 'Suggestions are unavailable; choose a category manually.',
+        );
+      } else if (!response.data.suggestedCategory) {
+        setCategorySuggestionMessage('No clear suggestion is available. Please choose manually.');
+      }
+    } catch {
+      setCategorySuggestionMessage(
+        'Suggestions are temporarily unavailable; choose a category manually.',
+      );
+    } finally {
+      setIsSuggestingCategory(false);
+    }
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -183,6 +272,7 @@ export const NewReportPage: React.FC = () => {
                 setLocationLabel('');
                 setCoords(null);
                 setSelectedFile(null);
+                clearDuplicateSuggestions();
               }}
               className="flex-1 py-2.5 px-4 rounded-xl font-semibold text-sm bg-slate-100 text-slate-700 hover:bg-slate-200 transition"
             >
@@ -236,7 +326,10 @@ export const NewReportPage: React.FC = () => {
             </label>
             <select
               value={category}
-              onChange={(e) => setCategory(e.target.value as Category)}
+              onChange={(e) => {
+                setCategory(e.target.value as Category);
+                clearDuplicateSuggestions();
+              }}
               className="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm transition bg-white"
             >
               {categories.map(([key, label]) => (
@@ -245,6 +338,39 @@ export const NewReportPage: React.FC = () => {
                 </option>
               ))}
             </select>
+            <div className="mt-3 flex flex-wrap items-center gap-3">
+              <button
+                type="button"
+                onClick={handleSuggestCategory}
+                disabled={isSuggestingCategory || description.trim().length < 20}
+                className="rounded-lg border border-blue-200 bg-blue-50 px-3 py-2 text-xs font-semibold text-blue-700 transition hover:bg-blue-100 disabled:cursor-not-allowed disabled:opacity-50"
+              >
+                {isSuggestingCategory ? 'Checking description...' : 'Suggest category'}
+              </button>
+              {suggestedCategory && (
+                <div className="flex flex-wrap items-center gap-2 text-sm">
+                  <span className="text-slate-600">
+                    Suggested category: {CATEGORY_LABELS[suggestedCategory]}. Please check this
+                    suggestion.
+                  </span>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setCategory(suggestedCategory);
+                      clearDuplicateSuggestions();
+                    }}
+                    className="font-semibold text-blue-700 underline underline-offset-2"
+                  >
+                    Use suggestion
+                  </button>
+                </div>
+              )}
+            </div>
+            {categorySuggestionMessage && (
+              <p className="mt-2 text-sm text-slate-600">
+                {categorySuggestionMessage}
+              </p>
+            )}
           </div>
 
                     {/* Description */}
@@ -263,7 +389,12 @@ export const NewReportPage: React.FC = () => {
               minLength={20}
               maxLength={2000}
               value={description}
-              onChange={(e) => setDescription(e.target.value)}
+              onChange={(e) => {
+                setDescription(e.target.value);
+                setCategorySuggestion(null);
+                setCategorySuggestionMessage(null);
+                clearDuplicateSuggestions();
+              }}
               placeholder="Describe the issue clearly: what is broken, where exactly it is, and what safety or functional risks it causes..."
               className="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm transition resize-y"
             />
@@ -323,6 +454,68 @@ export const NewReportPage: React.FC = () => {
               />
             </div>
           </div>
+
+          <section
+            className="rounded-xl border border-slate-200 bg-white p-4 space-y-3"
+          >
+            <div>
+              <h2 id="duplicate-check-heading" className="text-sm font-semibold text-slate-800">
+                Check for nearby reports
+              </h2>
+              <p className="mt-1 text-xs text-slate-600">
+                With your location, CivicBridge checks active reports within 500 m. Other
+                reporters&apos; titles, descriptions, photos, and identities are not shown.
+              </p>
+            </div>
+            <button
+              type="button"
+              onClick={handleCheckDuplicates}
+              disabled={!coords || description.trim().length < 20 || isCheckingDuplicates}
+              className="rounded-lg border border-blue-200 bg-blue-50 px-3 py-2 text-xs font-semibold text-blue-700 transition hover:bg-blue-100 disabled:cursor-not-allowed disabled:opacity-50"
+            >
+              {isCheckingDuplicates ? 'Checking nearby reports...' : 'Check for similar reports'}
+            </button>
+            {!coords && (
+              <p className="text-xs text-slate-500">
+                Nearby matching needs optional GPS coordinates. You can still submit without GPS.
+              </p>
+            )}
+            {duplicateSuggestions && (
+              <div className="space-y-2">
+                {duplicateSuggestions.matches.length > 0 ? (
+                  <>
+                    <p className="text-xs text-amber-900">
+                      These are possible matches, not confirmed duplicates. Nothing is merged or
+                      hidden automatically.
+                    </p>
+                    <ul className="space-y-2">
+                      {duplicateSuggestions.matches.map((match, index) => (
+                        <li
+                          key={`${match.category}-${match.status}-${match.distanceBand}-${index}`}
+                          className="flex flex-wrap gap-x-3 gap-y-1 rounded-lg bg-slate-50 p-3 text-xs text-slate-700"
+                        >
+                          <span className="font-semibold">{CATEGORY_LABELS[match.category]}</span>
+                          <span>{STATUS_LABELS[match.status]}</span>
+                          <span>
+                            {match.distanceBand === 'within_250m'
+                              ? 'Within 250 m'
+                              : '250–500 m away'}
+                          </span>
+                        </li>
+                      ))}
+                    </ul>
+                  </>
+                ) : (
+                  <p className="text-xs text-slate-600">
+                    {duplicateSuggestions.message ??
+                      (duplicateSuggestions.suggestionsUnavailable
+                        ? 'Nearby duplicate checking is unavailable. You can still submit your report.'
+                        : 'No similar nearby reports were found. You can submit your report.')}
+                  </p>
+                )}
+              </div>
+            )}
+          </section>
 
           {/* Optional Photo Attachment */}
           <div className="space-y-1.5">

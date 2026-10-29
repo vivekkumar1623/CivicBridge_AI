@@ -1,5 +1,6 @@
-import { describe, it, expect, beforeAll, afterAll } from 'vitest';
+import { describe, it, expect, beforeAll, afterAll, vi } from 'vitest';
 import request from 'supertest';
+import axios, { AxiosHeaders } from 'axios';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import sharp from 'sharp';
@@ -10,13 +11,15 @@ import { config } from '../src/config/index.js';
 import { signToken } from '../src/utils/token.js';
 import { SESSION_COOKIE_NAME } from '../src/utils/cookies.js';
 import { LocalPhotoStorage, photoStorage } from '../src/services/photoStorage.js';
+import * as categorySuggestionService from '../src/services/categorySuggestion.js';
 
-describe('Phases 4 and 5 - Reports and Photos', () => {
+describe('Phases 4 through 7 - Reports, Photos, and AI Suggestions', () => {
   let user1Token: string;
   let user2Token: string;
   let adminToken: string;
   let user1Id: string;
   let user2Id: string;
+  let candidateOwnerId: string;
   let createdReportNumber: string;
   let createdReportId: string;
   let photoReportNumber: string;
@@ -26,10 +29,18 @@ describe('Phases 4 and 5 - Reports and Photos', () => {
     await connectDatabase();
     await User.init();
     await Report.init();
+    vi.spyOn(categorySuggestionService, 'getCategorySuggestion').mockResolvedValue({
+      suggestedCategory: null,
+      confidence: 0,
+      modelVersion: null,
+      needsHumanReview: true,
+      suggestionsUnavailable: true,
+      message: 'Category suggestions are temporarily unavailable; choose a category manually.',
+    });
 
     // Clean up test users and reports
     await User.deleteMany({ email: /@test-reports\.com$/ });
-    await Report.deleteMany({ title: /^\[TEST-P[45]\]/ });
+    await Report.deleteMany({ title: /^\[TEST-P[4567]\]/ });
 
     // Create User 1 (Citizen)
     const u1 = await User.create({
@@ -51,6 +62,14 @@ describe('Phases 4 and 5 - Reports and Photos', () => {
     user2Id = u2._id.toString();
     user2Token = signToken({ userId: user2Id, role: 'citizen' });
 
+    const candidateOwner = await User.create({
+      name: 'Candidate Report Owner',
+      email: 'candidate@test-reports.com',
+      passwordHash: 'dummyhash',
+      role: 'citizen',
+    });
+    candidateOwnerId = candidateOwner._id.toString();
+
     // Create Admin User
     const admin = await User.create({
       name: 'Admin Reviewer',
@@ -63,8 +82,9 @@ describe('Phases 4 and 5 - Reports and Photos', () => {
 
   afterAll(async () => {
     await User.deleteMany({ email: /@test-reports\.com$/ });
-    await Report.deleteMany({ title: /^\[TEST-P[45]\]/ });
+    await Report.deleteMany({ title: /^\[TEST-P[4567]\]/ });
     await Promise.all(storedPhotoKeys.map((key) => photoStorage.delete(key)));
+    vi.restoreAllMocks();
     await disconnectDatabase();
   });
 
@@ -97,6 +117,7 @@ describe('Phases 4 and 5 - Reports and Photos', () => {
       expect(r.reportNumber).toMatch(/^CB-[23456789ABCDEFGHJKLMNPQRSTUVWXYZ]{6}$/);
       expect(r.status).toBe('submitted');
       expect(r.priority).toBe('normal');
+      expect(r.categoryDecision).toBe('manual_fallback');
       expect(r.statusHistory).toHaveLength(1);
       expect(r.statusHistory[0].toStatus).toBe('submitted');
 
@@ -392,6 +413,241 @@ describe('Phases 4 and 5 - Reports and Photos', () => {
       expect(res.status).toBe(401);
     });
 
+    it('should store the model suggestion and selected category as accepted', async () => {
+      vi.mocked(categorySuggestionService.getCategorySuggestion).mockResolvedValueOnce({
+        suggestedCategory: 'road_damage',
+        confidence: 0.87,
+        modelVersion: 'tfidf-logreg-v1',
+        needsHumanReview: false,
+        suggestionsUnavailable: false,
+      });
+
+      const res = await request(app)
+        .post('/api/reports')
+        .set('Cookie', [`${SESSION_COOKIE_NAME}=${user1Token}`])
+        .send({
+          title: '[TEST-P6] Accepted model category',
+          description: 'A large pothole on the road is causing vehicles to swerve.',
+          category: 'road_damage',
+          aiSuggestedCategory: 'other',
+          aiConfidence: 1,
+        });
+
+      expect(res.status).toBe(201);
+      expect(res.body.report.aiSuggestedCategory).toBe('road_damage');
+      expect(res.body.report.aiConfidence).toBe(0.87);
+      expect(res.body.report.aiModelVersion).toBe('tfidf-logreg-v1');
+      expect(res.body.report.categoryDecision).toBe('accepted_suggestion');
+    });
+
+    it('should record a manual category override without changing the model prediction', async () => {
+      vi.mocked(categorySuggestionService.getCategorySuggestion).mockResolvedValueOnce({
+        suggestedCategory: 'road_damage',
+        confidence: 0.87,
+        modelVersion: 'tfidf-logreg-v1',
+        needsHumanReview: false,
+        suggestionsUnavailable: false,
+      });
+
+      const res = await request(app)
+        .post('/api/reports')
+        .set('Cookie', [`${SESSION_COOKIE_NAME}=${user1Token}`])
+        .send({
+          title: '[TEST-P6] Manual category override',
+          description: 'Water is leaking from the pipe near the public footpath.',
+          category: 'water_drainage',
+        });
+
+      expect(res.status).toBe(201);
+      expect(res.body.report.category).toBe('water_drainage');
+      expect(res.body.report.aiSuggestedCategory).toBe('road_damage');
+      expect(res.body.report.categoryDecision).toBe('overrode_suggestion');
+    });
+  });
+
+  describe('POST /api/ai/category-suggestion', () => {
+    it('should return a suggestion for an authenticated citizen', async () => {
+      vi.mocked(categorySuggestionService.getCategorySuggestion).mockResolvedValueOnce({
+        suggestedCategory: 'streetlight',
+        confidence: 0.76,
+        modelVersion: 'tfidf-logreg-v1',
+        needsHumanReview: false,
+        suggestionsUnavailable: false,
+      });
+
+      const res = await request(app)
+        .post('/api/ai/category-suggestion')
+        .set('Cookie', [`${SESSION_COOKIE_NAME}=${user1Token}`])
+        .send({
+          description: 'The streetlight is broken and the walkway is dark at night.',
+        });
+
+      expect(res.status).toBe(200);
+      expect(res.body.suggestedCategory).toBe('streetlight');
+      expect(res.body.suggestionsUnavailable).toBe(false);
+    });
+
+    it('should explain when model suggestions are unavailable', async () => {
+      vi.mocked(categorySuggestionService.getCategorySuggestion).mockResolvedValueOnce({
+        suggestedCategory: null,
+        confidence: 0,
+        modelVersion: null,
+        needsHumanReview: true,
+        suggestionsUnavailable: true,
+        message: 'Category suggestions are temporarily unavailable; choose a category manually.',
+      });
+
+      const res = await request(app)
+        .post('/api/ai/category-suggestion')
+        .set('Cookie', [`${SESSION_COOKIE_NAME}=${user1Token}`])
+        .send({
+          description: 'The streetlight is broken and the walkway is dark at night.',
+        });
+
+      expect(res.status).toBe(200);
+      expect(res.body.suggestedCategory).toBeNull();
+      expect(res.body.suggestionsUnavailable).toBe(true);
+      expect(res.body.message).toMatch(/choose a category manually/i);
+    });
+
+    it('should reject invalid input and unauthenticated callers', async () => {
+      const invalid = await request(app)
+        .post('/api/ai/category-suggestion')
+        .set('Cookie', [`${SESSION_COOKIE_NAME}=${user1Token}`])
+        .send({ description: 'Short' });
+      const unauthenticated = await request(app)
+        .post('/api/ai/category-suggestion')
+        .send({ description: 'A sufficiently long description for this endpoint.' });
+
+      expect(invalid.status).toBe(422);
+      expect(unauthenticated.status).toBe(401);
+    });
+  });
+
+  describe('POST /api/reports/duplicate-suggestions', () => {
+    let candidateIndex = 0;
+
+    async function createNearbyCandidate() {
+      candidateIndex += 1;
+      return Report.create({
+        reportNumber: `CB-P7DUP${candidateIndex}`,
+        createdBy: candidateOwnerId,
+        title: `[TEST-P7] Private candidate title ${candidateIndex}`,
+        description:
+          'A large pothole has opened in the road beside the community library entrance.',
+        category: 'road_damage',
+        status: 'under_review',
+        location: {
+          type: 'Point',
+          coordinates: [77.1025, 28.7041],
+        },
+        isDemoData: false,
+      });
+    }
+
+    it('returns only the approved minimal preview for text-similar reports', async () => {
+      const candidate = await createNearbyCandidate();
+      vi.spyOn(axios, 'post').mockResolvedValueOnce({
+        data: {
+          scoredCandidates: [
+            {
+              id: candidate._id.toString(),
+              textSimilarity: 0.72,
+              distanceMeters: 12,
+              sameCategory: true,
+            },
+          ],
+        },
+        status: 200,
+        statusText: 'OK',
+        headers: new AxiosHeaders(),
+        config: { headers: new AxiosHeaders() },
+      });
+
+      const res = await request(app)
+        .post('/api/reports/duplicate-suggestions')
+        .set('Cookie', [`${SESSION_COOKIE_NAME}=${user1Token}`])
+        .send({
+          description: 'A deep pothole on the road beside the community library entrance.',
+          category: 'road_damage',
+          latitude: 28.7042,
+          longitude: 77.1025,
+        });
+
+      expect(res.status).toBe(200);
+      expect(res.body).toEqual({
+        matches: [
+          {
+            category: 'road_damage',
+            status: 'under_review',
+            distanceBand: 'within_250m',
+          },
+        ],
+        suggestionsUnavailable: false,
+      });
+      expect(JSON.stringify(res.body)).not.toContain(candidate.title);
+      expect(JSON.stringify(res.body)).not.toContain(candidate.description);
+      expect(res.body.matches[0]).not.toHaveProperty('id');
+      expect(res.body.matches[0]).not.toHaveProperty('reportNumber');
+      expect(res.body.matches[0]).not.toHaveProperty('location');
+    });
+
+    it('does not call ML when location is omitted', async () => {
+      const mlRequest = vi.spyOn(axios, 'post');
+      const res = await request(app)
+        .post('/api/reports/duplicate-suggestions')
+        .set('Cookie', [`${SESSION_COOKIE_NAME}=${user1Token}`])
+        .send({
+          description: 'A deep pothole on the road beside the community library entrance.',
+          category: 'road_damage',
+        });
+
+      expect(res.status).toBe(200);
+      expect(res.body.matches).toEqual([]);
+      expect(res.body.suggestionsUnavailable).toBe(false);
+      expect(res.body.message).toMatch(/add a location/i);
+      expect(mlRequest).not.toHaveBeenCalled();
+    });
+
+    it('rejects unauthenticated callers and unpaired coordinates', async () => {
+      const unauthenticated = await request(app).post('/api/reports/duplicate-suggestions').send({
+        description: 'A deep pothole on the road beside the community library entrance.',
+        category: 'road_damage',
+        latitude: 28.7042,
+        longitude: 77.1025,
+      });
+      const unpairedCoordinates = await request(app)
+        .post('/api/reports/duplicate-suggestions')
+        .set('Cookie', [`${SESSION_COOKIE_NAME}=${user1Token}`])
+        .send({
+          description: 'A deep pothole on the road beside the community library entrance.',
+          category: 'road_damage',
+          latitude: 28.7042,
+        });
+
+      expect(unauthenticated.status).toBe(401);
+      expect(unpairedCoordinates.status).toBe(422);
+    });
+
+    it('keeps report submission available when ML scoring is unavailable', async () => {
+      await createNearbyCandidate();
+      vi.spyOn(axios, 'post').mockRejectedValueOnce(new Error('ML service unavailable'));
+
+      const res = await request(app)
+        .post('/api/reports/duplicate-suggestions')
+        .set('Cookie', [`${SESSION_COOKIE_NAME}=${user1Token}`])
+        .send({
+          description: 'A deep pothole on the road beside the community library entrance.',
+          category: 'road_damage',
+          latitude: 28.7042,
+          longitude: 77.1025,
+        });
+
+      expect(res.status).toBe(200);
+      expect(res.body.matches).toEqual([]);
+      expect(res.body.suggestionsUnavailable).toBe(true);
+      expect(res.body.message).toMatch(/you can still submit/i);
+    });
   });
 
   describe('GET /api/reports/mine', () => {

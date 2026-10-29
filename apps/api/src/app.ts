@@ -6,6 +6,8 @@ import { config } from './config/index.js';
 import { healthRouter } from './routes/health.js';
 import { authRouter } from './routes/auth.js';
 import { reportsRouter } from './routes/reports.js';
+import { aiRouter } from './routes/ai.js';
+import { adminRouter } from './routes/admin.js';
 
 const app = express();
 
@@ -31,6 +33,8 @@ app.use(express.urlencoded({ extended: false, limit: '1mb' }));
 app.use('/api', healthRouter);
 app.use('/api/auth', authRouter);
 app.use('/api/reports', reportsRouter);
+app.use('/api/ai', aiRouter);
+app.use('/api/admin', adminRouter);
 
 // 404 handler
 app.use((_req, res) => {

@@ -70,6 +70,45 @@ export const createReportSchema = z.object({
 
 export type CreateReportInput = z.infer<typeof createReportSchema>;
 
+export const categorySuggestionRequestSchema = z.object({
+  description: z
+    .string()
+    .trim()
+    .min(20, 'Description must be at least 20 characters')
+    .max(2000, 'Description cannot exceed 2000 characters'),
+});
+
+export const duplicateSuggestionRequestSchema = z
+  .object({
+    description: z
+      .string()
+      .trim()
+      .min(20, 'Description must be at least 20 characters')
+      .max(2000, 'Description cannot exceed 2000 characters'),
+    category: z.enum(CATEGORY_VALUES),
+    latitude: z.coerce
+      .number()
+      .min(-90, 'Latitude must be between -90 and 90')
+      .max(90, 'Latitude must be between -90 and 90')
+      .optional(),
+    longitude: z.coerce
+      .number()
+      .min(-180, 'Longitude must be between -180 and 180')
+      .max(180, 'Longitude must be between -180 and 180')
+      .optional(),
+  })
+  .superRefine((data, ctx) => {
+    if ((data.latitude === undefined) !== (data.longitude === undefined)) {
+      ctx.addIssue({
+        code: z.ZodIssueCode.custom,
+        message: 'Latitude and longitude must be provided together',
+        path: [data.latitude === undefined ? 'latitude' : 'longitude'],
+      });
+    }
+  });
+
+export type DuplicateSuggestionInput = z.infer<typeof duplicateSuggestionRequestSchema>;
+
 /**
  * Status Transition Validation (Admin/Reviewer)
  * Enforces:
@@ -118,3 +157,13 @@ export const updatePrioritySchema = z.object({
 });
 
 export type UpdatePriorityInput = z.infer<typeof updatePrioritySchema>;
+
+export const adminReportQuerySchema = z.object({
+  status: z.enum(STATUS_VALUES).optional(),
+  category: z.enum(CATEGORY_VALUES).optional(),
+  priority: z.enum(PRIORITY_VALUES).optional(),
+  page: z.coerce.number().int().min(1).default(1),
+  limit: z.coerce.number().int().min(1).max(50).default(20),
+});
+
+export type AdminReportQuery = z.infer<typeof adminReportQuerySchema>;

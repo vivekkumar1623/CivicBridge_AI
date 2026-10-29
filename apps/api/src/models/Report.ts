@@ -23,6 +23,14 @@ export interface IStatusHistory {
   changedAt: Date;
 }
 
+export interface IPriorityHistory {
+  fromPriority: Priority;
+  toPriority: Priority;
+  changedBy: Types.ObjectId | string;
+  note?: string;
+  changedAt: Date;
+}
+
 export interface IReport extends Document {
   reportNumber: string;
   createdBy: Types.ObjectId;
@@ -41,6 +49,7 @@ export interface IReport extends Document {
   resolutionNote?: string;
   rejectionReason?: string;
   statusHistory: IStatusHistory[];
+  priorityHistory: IPriorityHistory[];
   isDemoData: boolean;
   createdAt: Date;
   updatedAt: Date;
@@ -109,6 +118,35 @@ const StatusHistorySchema = new Schema(
         },
         message: 'Status note must be between 10 and 500 characters',
       },
+    },
+    changedAt: {
+      type: Date,
+      default: Date.now,
+    },
+  },
+  { _id: false },
+);
+
+const PriorityHistorySchema = new Schema(
+  {
+    fromPriority: {
+      type: String,
+      required: true,
+      enum: PRIORITY_VALUES,
+    },
+    toPriority: {
+      type: String,
+      required: true,
+      enum: PRIORITY_VALUES,
+    },
+    changedBy: {
+      type: Schema.Types.Mixed,
+      required: true,
+    },
+    note: {
+      type: String,
+      trim: true,
+      maxlength: [500, 'Priority note cannot exceed 500 characters'],
     },
     changedAt: {
       type: Date,
@@ -230,6 +268,10 @@ const ReportSchema = new Schema<IReport>(
     },
     statusHistory: {
       type: [StatusHistorySchema],
+      default: [],
+    },
+    priorityHistory: {
+      type: [PriorityHistorySchema],
       default: [],
     },
     isDemoData: {

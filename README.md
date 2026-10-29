@@ -1,6 +1,6 @@
 # CivicBridge AI
 
-A campus/neighbourhood prototype for reporting local public-space issues and tracking their status.
+Human-centred civic issue reporting and transparent triage, with ML-assisted category suggestions and nearby duplicate suggestions.
 
 > **Prototype:** This is a campus/neighbourhood prototype. It does not claim to send complaints to a municipality unless an authorized integration is separately configured and tested.
 
@@ -16,7 +16,8 @@ Node.js + Express API (port 4000) -----> MongoDB via Mongoose
        | private HTTP requests with timeouts
        v
 Python FastAPI ML service (port 8000)
-  - service health checks
+  - category model inference
+  - text similarity for duplicate suggestions
 ```
 
 ## Tech Stack
@@ -27,7 +28,7 @@ Python FastAPI ML service (port 8000)
 | Backend/API | Node.js LTS + TypeScript + Express                                    |
 | Database    | MongoDB with Mongoose                                                 |
 | ML Service  | Python + FastAPI + scikit-learn + pandas + joblib                     |
-| Tests       | Vitest + Supertest (API), pytest (Python), React Testing Library (UI) |
+| Tests       | Vitest + Supertest (API), pytest (Python), TypeScript/production build (web) |
 
 ## Prerequisites
 
@@ -68,6 +69,8 @@ cd services/ml
 py -m venv .venv
 .venv\Scripts\Activate.ps1
 pip install -r requirements.txt
+python -m training.build_synthetic_dataset
+python -m training.train_category_model
 
 # Start the ML service
 uvicorn app.main:app --host 127.0.0.1 --port 8000 --reload
@@ -115,15 +118,25 @@ pytest
 - [x] Phase 4 — Complete non-AI report workflow
 - [x] Phase 5 — Photo upload and privacy
 - [x] Phase 6 — Text category model
-- [ ] Phase 7 — Nearby duplicate suggestions
-- [ ] Phase 8 — Admin/reviewer workflow and dashboard
+- [x] Phase 7 — Nearby duplicate suggestions
+- [x] Phase 8 — Admin/reviewer workflow and dashboard
 - [ ] Phase 9 — Frontend usability and accessibility
 - [ ] Phase 10 — Security, robustness, and quality gates
 - [ ] Phase 11 — Documentation and presentation
 
+
+## Phase 6-8 technical documents
+
+- [API contract](docs/API_CONTRACT.md)
+- [Model card](docs/MODEL_CARD.md)
+- [Dataset card](docs/DATASET_CARD.md)
+
 ## Limitations
 
 - This is a standalone prototype; reports are only visible within the application.
+- Category suggestions use a historical, single-city experiment and are not nationwide or production validated.
+- Nearby duplicate matches are unverified suggestions and are not automatically merged or rejected.
+- The reviewer dashboard is admin-only; status transitions are constrained and recorded with reviewer notes.
 - Uploaded photos use private local development storage; persistent production
   storage requires a private object-storage adapter.
 - Reports are not automatically submitted to a municipal authority.
